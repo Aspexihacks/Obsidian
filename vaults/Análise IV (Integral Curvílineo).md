@@ -42,7 +42,7 @@ Devemos definir um conceito útil para este tipo de construção:
 	\end{cases}\quad,$$ onde a soma é tomada em partições de $[a,x], x\in(a,b]$.
 	 Como $f^+$ e $f^-$ são monótonas, e é observável que$$f(x)=f(a)+f^+(x)-f^-(x).$$
 	 Inversamente, suponhamos que $f$ pode ser escrita como soma de funções monótonas. Então, $f=g_1+g_2+...+g_n$ para funções $g_1,g_2,...,g_n$ monótonas.
-	 Como para cada $g_i$ a variação máxima no intervalo de definição (compacto!!) é $|g_i(b)-g_i(a)|$ , obtemos que $$\sup_P V(P,f)\leq \sum_1^{n}\sup_PV(P,g_i)\leq\sum_1^{n}|g_i(b)-g_i(a)|<\infty.\square$$
+	 Como para cada $g_i$ a variação máxima no intervalo de definição (compacto!!) é $|g_i(b)-g_i(a)|$, obtemos que $$\sup_P V(P,f)\leq \sum_1^{n}\sup_PV(P,g_i)\leq\sum_1^{n}|g_i(b)-g_i(a)|<\infty.\square$$
 ***Proposição*** A curva $\overset{\LARGE \frown}{\small{AB}}$ é retificável se e somente se $\phi, \psi$ forem de variação limitada.
 
 Se tivermos um arco retificável, contido em $\mathbb{R}^2$, de equações paramétricas
@@ -50,3 +50,11 @@ $$
 \begin{cases}x=\phi(t)\\y=\psi(t)\end{cases},t\in[t_A,t_B]
 $$
 O arco diz-se de **classe $C^1$** se as funções $\phi, \psi$ forem de **classe $C^1$** em $[t_A,t_B]$ e diz-se **simples** se não se intersetar a si próprio, exceto das extremidades.
+
+Definimos agora os seguintes conceitos:
+	***Integral Curvilíneo dx:*** Seja $P:D\subseteq \mathbb{R}^2\longrightarrow \mathbb{R}$ , compreendemos como Integral Curvílineo dx o limite $$\lim_{\lambda\rightarrow 0}\sum^{n-1}_{i=0}P(\xi_i,\eta_i)(x_{i+1}-x_{i})\quad(=\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)\ dx)$$ se tal existir.
+	***Integral Curvilíneo dy:*** Seja $Q:D\subseteq \mathbb{R}^2\longrightarrow \mathbb{R}$ , compreendemos como Integral Curvílineo dy o limite $$\lim_{\lambda\rightarrow 0}\sum^{n-1}_{i=0}Q(\xi_i,\eta_i)(y_{i+1}-y_{i})\quad(=\int_{\overset{\LARGE \frown}{\small{AB}}}Q(x,y)\ dy)$$ se tal existir.
+	***Integral Curvilíneo dxdy:*** Seja $P,Q:D\subseteq \mathbb{R}^2\longrightarrow \mathbb{R}$ , compreendemos como Integral Curvílineo dxdy o limite $$\lim_{\lambda\rightarrow 0}\sum^{n-1}_{i=0}P(\xi_i,\eta_i)(x_{i+1}-x_{i})+\sum^{n-1}_{i=0}Q(\xi_i,\eta_i)(y_{i+1}-y_{i})\quad(=\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)\ dx+Q(x,y)\ dy)$$ se tal existir.
+
+A [[Regra de Cálculo dos Integrais Curvilíneos]] é bastante simples de se mostrar.
+
