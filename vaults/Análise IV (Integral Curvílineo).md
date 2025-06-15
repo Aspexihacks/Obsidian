@@ -1,4 +1,4 @@
-																			
+
 **Objetivos**: 
 	Consideremos o Teorema Fundamental do Cálculo:
 		"Seja $f:[a,b]\rightarrow\mathbb{R}$ contínua, então $\int_a^bf'(x)dx = f(b)-f(a).$"
@@ -56,7 +56,7 @@ Definimos agora os seguintes conceitos:
 	***Integral Curvilíneo dy:*** Seja $Q:D\subseteq \mathbb{R}^2\longrightarrow \mathbb{R}$ , compreendemos como Integral Curvílineo dy o limite $$\lim_{\lambda\rightarrow 0}\sum^{n-1}_{i=0}Q(\xi_i,\eta_i)(y_{i+1}-y_{i})\quad(=\int_{\overset{\LARGE \frown}{\small{AB}}}Q(x,y)\ dy)$$ se tal existir.
 	***Integral Curvilíneo dxdy:*** Seja $P,Q:D\subseteq \mathbb{R}^2\longrightarrow \mathbb{R}$ , compreendemos como Integral Curvílineo dxdy o limite $$\lim_{\lambda\rightarrow 0}\sum^{n-1}_{i=0}P(\xi_i,\eta_i)(x_{i+1}-x_{i})+\sum^{n-1}_{i=0}Q(\xi_i,\eta_i)(y_{i+1}-y_{i})\quad(=\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)\ dx+Q(x,y)\ dy)$$ se tal existir.
 
-A [[Regra de Cálculo dos Integrais Curvilíneos]] é bastante simples de se mostrar.
+A **[[Regra de Cálculo dos Integrais Curvilíneos]]** é bastante simples de se mostrar.
 
 Usando essa mesma regra, podemos provar facilmente que podemos dividir um arco em dois e a soma dos integrais é o integral do arco original.
 
@@ -67,4 +67,11 @@ Esta interpretação relaciona a rota de movimento, a curva, e a força, para a 
 Os resultados em $\mathbb{R}^2$ podem ser generalizados para $\mathbb{R}^3$.
 
 Devemos também ver o que se pode deduzir sobre o [[integral curvilíneo de uma função escalar]].
+
+Dizemos que um integral curvilíneo é  **independente de curva ou caminho** se$$\int_{\gamma_{1}}P(x,y)\ dx\ +\ Q(x,y)\ dy=\int_{\gamma_{2}}P(x,y)\ dx\ +\ Q(x,y)\ dy$$
+para quaisquer curvas que tenham os mesmos extremos.
+
+***Teorema Fundamental do Cálculo para integrais curvilíneos:*** Sejam $\overset{\LARGE \frown}{\small{AB}}$ um arco de curva retificável, de classe $C^1$, e $$F=(P,Q):D\subseteq\mathbb{R^2}\rightarrow\mathbb{R^2}$$
+onde $\overset{\LARGE \frown}{\small{AB}}\subseteq D$ uma função conservativa e contínua.
+Então o integral curvilíneo de $F$ 
 
