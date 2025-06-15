@@ -85,3 +85,8 @@ Este teorema dá-nos uma nova caracterização da medida de $D$, $mes(D)$:
 3. $P(x,y)=-\frac{y}{2},\quad Q(x,y)=\frac{x}{2}:$ $$mes(D)=\iint_{D}dxdy=\frac{1}{2}\oint_{fr(D)\circlearrowleft}-y\ dx+x\ dy.$$
 Além disto, pode ser aplicado a qualquer $D$ compacto, desde que possa ser dividido num número finito de conjuntos do tipo requerido.
 
+***Proposição:*** Seja $F=(P,Q):D\subset \mathbb{R}^2\to \mathbb{R}^2$, onde $D$ é aberto e simplesmente conexo. Então $F$ é conservativo se e só se $$\frac{\partial{P}}{\partial y}=\frac{\partial{Q}}{\partial x}.$$
+A prova desta proposição é semelhante à ideia das equações diferenciais exatas.
+
+Com o que sabemos agora podemos provar a [[lei da conservação da energia]].
+
