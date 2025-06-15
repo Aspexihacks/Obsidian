@@ -1,4 +1,4 @@
-
+																			
 **Objetivos**: 
 	Consideremos o Teorema Fundamental do Cálculo:
 		"Seja $f:[a,b]\rightarrow\mathbb{R}$ contínua, então $\int_a^bf'(x)dx = f(b)-f(a).$"
@@ -63,4 +63,8 @@ Usando essa mesma regra, podemos provar facilmente que podemos dividir um arco e
 Uma das maiores aplicações é a interpretação física do integral curvilíneo de um campo de forças.
 
 Esta interpretação relaciona a rota de movimento, a curva, e a força, para a obtenção do [[trabalho realizado para forças não constantes]] de um ponto ao outro.
+
+Os resultados em $\mathbb{R}^2$ podem ser generalizados para $\mathbb{R}^3$.
+
+Devemos também ver o que se pode deduzir sobre o [[integral curvilíneo de uma função escalar]].
 
