@@ -60,3 +60,6 @@ A [[Regra de Cálculo dos Integrais Curvilíneos]] é bastante simples de se mos
 
 Usando essa mesma regra, podemos provar facilmente que podemos dividir um arco em dois e a soma dos integrais é o integral do arco original.
 
+Uma das maiores aplicações é a interpretação física do integral curvilíneo de um campo de forças.
+
+Esta interpretação relaciona a rota de movimento, a curva, e a força, para a obtenção do [[trabalho realizado para forças não constantes]] de um ponto ao outro.
