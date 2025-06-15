@@ -68,10 +68,8 @@ Os resultados em $\mathbb{R}^2$ podem ser generalizados para $\mathbb{R}^3$.
 
 Devemos também ver o que se pode deduzir sobre o [[integral curvilíneo de uma função escalar]].
 
-Dizemos que um integral curvilíneo é  **independente de curva ou caminho** se$$\int_{\gamma_{1}}P(x,y)\ dx\ +\ Q(x,y)\ dy=\int_{\gamma_{2}}P(x,y)\ dx\ +\ Q(x,y)\ dy$$
-para quaisquer curvas que tenham os mesmos extremos.
+Dizemos que um integral curvilíneo é  **independente de curva ou caminho** se$$\int_{\gamma_{1}}P(x,y)\ dx\ +\ Q(x,y)\ dy=\int_{\gamma_{2}}P(x,y)\ dx\ +\ Q(x,y)\ dy$$para quaisquer curvas que tenham os mesmos extremos.
 
-***Teorema Fundamental do Cálculo para integrais curvilíneos:*** Sejam $\overset{\LARGE \frown}{\small{AB}}$ um arco de curva retificável, de classe $C^1$, e $$F=(P,Q):D\subseteq\mathbb{R^2}\rightarrow\mathbb{R^2}$$
-onde $\overset{\LARGE \frown}{\small{AB}}\subseteq D$ uma função conservativa e contínua.
-Então o integral curvilíneo de $F$ 
-
+***Teorema Fundamental do Cálculo para integrais curvilíneos:*** Sejam $\overset{\LARGE \frown}{\small{AB}}$ um arco de curva retificável, de classe $C^1$, e $$F=(P,Q):D\subseteq\mathbb{R^2}\rightarrow\mathbb{R^2}$$onde $\overset{\LARGE \frown}{\small{AB}}\subseteq D$ uma função conservativa e contínua.
+Então o integral curvilíneo de $F$ em $\overset{\LARGE \frown}{\small{AB}}$ é independente de caminho, sendo $$\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)\ dx\ +Q(x,y)\ dy=f(B)-f(A),$$onde $f$ é *função potencial* de $F$.
+	$\mathcal{Prova}:$ Seja $F=\nabla f$, e $\overset{\LARGE \frown}{\small{AB}}$ parametrizado por $$\begin{cases}x=\phi(t)\\y=\psi(t)\end{cases}\quad,\ t\in[t_{A},t_{B}].$$ É fácil ver que $$\begin{align}\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)dx+Q(x,y)dy&=\int_{\overset{\LARGE \frown}{\small{AB}}} \frac{\partial f}{\partial x}(x,y) dx +\frac{\partial f}{\partial y}(x,y) dy=\\&= \int_{t_{A}}^{t_{B}} \frac{d}{dt}(f\circ(\phi(t),\psi(t)))dt=\\&=f(\phi(t),\psi(t))\bigg\rvert^{t_{B}}_{t_{A}}=f(B)-f(A).\quad\square\end{align}$$
