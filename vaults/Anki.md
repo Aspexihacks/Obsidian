@@ -33,6 +33,9 @@ Representemos então por $C(P)$ o comprimento dessa linha poligonal. Tem-se $C(P
 
 Q: Qual a definição de variação total de uma função real de variável real?
 A: A variação total de $f$ em $[a,b]$ , $V(P,f)$, é dada por$$V(P,f)=\sum^{n-1}_{i=0}|f(t_{i+1})-f(t_i)|.$$
+<!--ID: 1750027498961-->
+
+
 Q: Qual o sentido **positivo** de uma curva $\phi$?
 A: Considerando $D$ tal que $fr(D)=\phi$ . Se $D$ se vê à **esquerda** do caminho(/sentido) a ser seguido, esse é o positivo.
 <!--ID: 1749930377686-->
@@ -65,7 +68,12 @@ Q: Um integral curvilíneo diz-se **independente da curva** se...
 A: ![[Pasted image 20250614210238.png]]
 <!--ID: 1749931376307-->
 
-Q: ***Teorema Fundamental do Cálculo para integrais curvilíneos:*** Sejam $\overset{\LARGE \frown}{\small{AB}}$ um arco de curva retificável, de classe $C^1$, e $$F=(P,Q):D\subseteq\mathbb{R^2}\rightarrow\mathbb{R^2}$$onde $\overset{\LARGE \frown}{\small{AB}}\subseteq D$ uma função conservativa e contínua. Então o integral curvilíneo de $F$ em $\overset{\LARGE \frown}{\small{AB}}$ é independente de caminho, sendo $$\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)\ dx\ +Q(x,y)\ dy=f(B)-f(A),$$onde $f$ é *função potencial* de $F$.
-A: $\mathcal{Prova}:$ Seja $F=\nabla f$, e $\overset{\LARGE \frown}{\small{AB}}$ parametrizado por $$\begin{cases}x=\phi(t)\\y=\psi(t)\end{cases}\quad,\ t\in[t_{A},t_{B}].$$ É fácil ver que $$\begin{align}\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)dx+Q(x,y)dy&=\int_{\overset{\LARGE \frown}{\small{AB}}} \frac{\partial f}{\partial x}(x,y) dx +\frac{\partial f}{\partial y}(x,y) dy=\\&= \int_{t_{A}}^{t_{B}} \frac{d}{dt}(f\circ(\phi(t),\psi(t)))dt=\\&=f(\phi(t),\psi(t))\bigg\rvert^{t_{B}}_{t_{A}}=f(B)-f(A).\quad\square\end{align}$$
-Q: ***Proposição:*** Sendo $F=(P,Q):D\subseteq \mathbb{R}^2\rightarrow \mathbb{R}^2,$ um campo de vetores contínuo, o integral curvilíneo de $F$ é independente da curva se e só se$$\int_{\gamma}P(x,y)dx+Q(x,y)dy=0,$$para qualquer curva $\gamma$ fechada em $D$.
-A: $\mathcal{Prova}:$ Se o integral curvilíneo de $F$ é independente de curva, então dada $\gamma$ uma curva fechada, temos que existe um $C$ tal que $$\begin{align}&\int_{\gamma}P(x,y)dx+Q(x,y)dy=\\&=\int_{\overset{\LARGE \frown}{\small{AC}}}P(x,y)dx+Q(x,y)dy+\int_{\overset{\LARGE \frown}{\small{CA}}}P(x,y)dx+Q(x,y)dy=\\&=\int_{\overset{\LARGE \frown}{\small{AC}}}P(x,y)dx+Q(x,y)dy -\int_{\overset{\LARGE \frown}{\small{AC}}}P(x,y)dx+Q(x,y)dy=0.\end{align}$$Se tivermos que $$\int_{\gamma}P(x,y)dx+Q(x,y)dy=0,$$para qualquer $\gamma$ curva fechada, então temos que dadas duas curvas $\gamma_{1},\gamma_{2}$ que unem $A$ a $B$. Pondo $\gamma=\gamma_{1}\cup(-\gamma_{2})$, temos que  $$\begin{align}&\int_{\gamma}P(x,y)dx+Q(x,y)dy=\\&=\int_{\gamma_{1}}P(x,y)dx+Q(x,y)dy-\int_{\gamma_{2}}P(x,y)dx+Q(x,y)dy=0.\end{align}$$ Logo, $$\int_{\gamma_{1}}P(x,y)dx+Q(x,y)dy=\int_{\gamma_{2}}P(x,y)dx+Q(x,y)dy.$$
+Q: Teorema Fundamental do Cálculo para integrais curvilíneos: Sejam $\overset{\LARGE \frown}{\small{AB}}$ um arco de curva retificável, de classe $C^1$, e $$F=(P,Q):D\subseteq\mathbb{R^2}\rightarrow\mathbb{R^2}$$onde $\overset{\LARGE \frown}{\small{AB}}\subseteq D$ uma função conservativa e contínua. Então o integral curvilíneo de $F$ em $\overset{\LARGE \frown}{\small{AB}}$ é independente de caminho, sendo $$\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)\ dx\ +Q(x,y)\ dy=f(B)-f(A),$$onde $f$ é *função potencial* de $F$.
+
+A: Seja $F=\nabla f$, e $\overset{\LARGE \frown}{\small{AB}}$ parametrizado por $$\begin{cases}x=\phi(t)\\y=\psi(t)\end{cases}\quad,\ t\in[t_{A},t_{B}].$$ É fácil ver que $$\begin{align}\int_{\overset{\LARGE \frown}{\small{AB}}}P(x,y)dx+Q(x,y)dy&=\int_{\overset{\LARGE \frown}{\small{AB}}} \frac{\partial f}{\partial x}(x,y) dx +\frac{\partial f}{\partial y}(x,y) dy=\\&= \int_{t_{A}}^{t_{B}} \frac{d}{dt}(f\circ(\phi(t),\psi(t)))dt=\\&=f(\phi(t),\psi(t))\bigg\rvert^{t_{B}}_{t_{A}}=f(B)-f(A).\quad\square\end{align}$$
+<!--ID: 1750027068618-->
+
+
+Q: Sendo $F=(P,Q):D\subseteq \mathbb{R}^2\rightarrow \mathbb{R}^2,$ um campo de vetores contínuo, o integral curvilíneo de $F$ é independente da curva se e só se$$\int_{\gamma}P(x,y)dx+Q(x,y)dy=0,$$para qualquer curva $\gamma$ fechada em $D$.
+A: Se o integral curvilíneo de $F$ é independente de curva, então dada $\gamma$ uma curva fechada, temos que existe um $C$ tal que $$\begin{align}&\int_{\gamma}P(x,y)dx+Q(x,y)dy=\\&=\int_{\overset{\LARGE \frown}{\small{AC}}}P(x,y)dx+Q(x,y)dy+\int_{\overset{\LARGE \frown}{\small{CA}}}P(x,y)dx+Q(x,y)dy=\\&=\int_{\overset{\LARGE \frown}{\small{AC}}}P(x,y)dx+Q(x,y)dy -\int_{\overset{\LARGE \frown}{\small{AC}}}P(x,y)dx+Q(x,y)dy=0.\end{align}$$Se tivermos que $$t$$para qualquer $\gamma$ curva fechada, então temos que dadas duas curvas $\gamma_{1},\gamma_{2}$ que unem $A$ a $B$. Pondo $\gamma=\gamma_{1}\cup(-\gamma_{2})$, temos que  $$\begin{align}&\int_{\gamma}P(x,y)dx+Q(x,y)dy=\\&=\int_{\gamma_{1}}P(x,y)dx+Q(x,y)dy-\int_{\gamma_{2}}P(x,y)dx+Q(x,y)dy=0.\end{align}$$ Logo, $$\int_{\gamma_{1}}P(x,y)dx+Q(x,y)dy=\int_{\gamma_{2}}P(x,y)dx+Q(x,y)dy.$$
+<!--ID: 1750027052713-->
