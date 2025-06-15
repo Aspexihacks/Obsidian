@@ -58,3 +58,5 @@ Definimos agora os seguintes conceitos:
 
 A [[Regra de Cálculo dos Integrais Curvilíneos]] é bastante simples de se mostrar.
 
+Usando essa mesma regra, podemos provar facilmente que podemos dividir um arco em dois e a soma dos integrais é o integral do arco original.
+
