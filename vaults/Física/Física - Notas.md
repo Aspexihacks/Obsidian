@@ -9,3 +9,16 @@
 
 **Rapidez média** - $\frac{\text{distância total percorrida}}{\text{tempo total}}$.
 
+**Velocidade instantânea** - $v(t)=\lim_{ n \to 0 } \frac{{\Delta x}}{\Delta t}=\frac{dx}{dt}$, onde $x(t)$ descreve a posição em função do tempo.
+
+**Aceleração** - taxa de variação da velocidade instantânea.
+
+**Aceleração média** - razão entre a variação de velocidade instantânea e o intervalo de tempo.
+
+**Aceleração instantânea**($SI=\frac{m}{s^2}$) - $a(t)=\lim_{ n \to 0 }\frac{{\Delta v}}{\Delta t}= \frac{dv}{dt}=\frac{d^2x}{dt^2}$.
+
+Usando integração, podemos andar para trás no processo de derivação e passar de aceleração para velocidade, da mesma maneira, podemos passar de velocidade para posição.
+
+Desta maneira, surge a *lei do movimento*:
+	$dx=v\ dt\implies \int^{x(t)}_{x(t_{0})}dx=\int^t_{t_{0}}v(t)dt\implies x(t)=x(t_{0})+\int^t_{t_{0}}v(t)dt$
+
