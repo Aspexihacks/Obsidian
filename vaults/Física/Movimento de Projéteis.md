@@ -22,4 +22,4 @@ y&=v_{0y}\cdot t -\frac{1}{2}g\cdot t=v_{0y}\left( \frac{x}{x_{0x}} \right)-\fra
 \end{align}$$
 Podemos então calcular o *tempo total de voo*, supondo que foi lançado da origem:$$y\left( t_{voo}\right)=v_{0y}t_{voo}-\frac{1}{2}gt_{voo}^{2}=0,t_{voo}>0 \implies t_{voo}=\frac{2v_{0}\sin \theta_{0}}{g}.$$
 O *alcance*, com as mesmas suposições, será dado por:$$x(t_{voo})=v_{0x}t_{voo}=v_{0}\cos \theta_{0}\frac{2v_{0}\sin \theta_{0}}{g}=\frac{2v_{0}^{2}}{g}\sin \theta_{0}\cos \theta_{0}=v_{0}^{2} \frac{\sin2\theta_{0}}{g}.$$
-Se o projétil alcança a altura máxima, então a sua velocidade nesse instante é **nula**. Logo, $$$$
+Se o projétil alcança a altura máxima, então a sua velocidade nesse instante é **nula**. Logo, $$v_{y}=0 \implies v_{y}^{2}=v_{0y}^{2}-2gh_{max}=0 \implies h_{max}=\frac{v_{0y}^{2}}{2g}=\frac{v_{0}\sin ^{2}\theta_{0}}{2g}.$$
