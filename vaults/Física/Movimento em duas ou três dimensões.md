@@ -8,4 +8,8 @@
 
 A norma da velocidade média é sempre menor ou igual á rapidez média.
 
-**Aceleração média:** $\vec{a}_{m}=  \frac{\Delta\vec{v}}{\Delta t}$
+**Aceleração média:** $\vec{a}_{m}=  \frac{\Delta\vec{v}}{\Delta t}$.
+
+**Aceleração instantânea:** $$\vec{a}=\lim_{ \Delta t \to 0 } \frac{\Delta \vec{v}}{\Delta t}=\left( \frac{d^2x}{dt^2}, \frac{d^2y}{dt^2} , \frac{d^2z}{dt^2} \right) =(a_{x},a_{y},a_{z})$$onde $a_{x},a_{y},a_{z}$ são as acelerações instantâneas em cada coordenada.
+
+Uma das aplicações mais simples de estudar o movimento em duas dimensões é o [[Movimento de Projéteis]].
