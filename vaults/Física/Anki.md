@@ -1,4 +1,4 @@
-TARGET DECK Física
+TARGET DECK: Física
 
 Q: O que é uma partícula em cinemática? 
 A: Um objeto cuja posição pode ser descrita por um único ponto, ignorando sua estrutura interna.
