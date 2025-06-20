@@ -36,3 +36,6 @@ Todos os objetos estão sujeitos á mesma aceleração, quando estão nas proxim
 **Gravidade Terrestre:** $g\approx 9,8m/s^2$
 
 **[[Movimento em duas ou três dimensões]]**: Devemos fixar um referencial que seja independente ao movimento e posições.
+
+**Força:** Grandeza vetorial
+
