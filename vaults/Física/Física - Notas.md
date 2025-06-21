@@ -39,5 +39,3 @@ Todos os objetos estão sujeitos á mesma aceleração, quando estão nas proxim
 
 **Força:** Grandeza vetorial que representa uma interação.
 
-
-
