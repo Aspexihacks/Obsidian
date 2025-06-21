@@ -34,4 +34,7 @@ $$
 
 **Definition:** A linear mapping $T:X \to Y$ is *continuous* iff it is continuous at 0, or iff there is $\lvert \lvert T \rvert \rvert$ for which$$\sup\{\lvert \lvert Tx \rvert  \rvert:||x||\leq 1 \}=||T||<\infty.$$This number is the least $M$ such that $||Tx||\leq M||x||$ for each $x$.
 
-**Definition:** Two spaces $X,Y$ are said *isomorphic* if there is an algebraic isomorphism $T:X\to Y$ for which both $T$ and $T^{-1}$ are continuous 
+**Definition:** Two spaces $X,Y$ are said *isomorphic* if there is an algebraic isomorphism $T:X\to Y$ for which both $T$ and $T^{-1}$ are continuous. When this happen, there are $\alpha, \beta>0$ for which $$\alpha||x||\leq||Tx||\leq \beta||x||,\quad x \in X.$$For $\alpha=\beta=1$, $X$ and $Y$ are said *isometric*. 
+When $Y$ is just $X$ with some other norm, then the old and new norms are said to be *equivalent* if $X,Y$ are isomorphic with $T=id$.
+
+**Definition:** 
