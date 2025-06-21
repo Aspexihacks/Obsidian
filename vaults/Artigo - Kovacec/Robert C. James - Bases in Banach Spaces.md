@@ -70,4 +70,4 @@ $$\begin{align}
 h-a_{1}f_{1}=&\sum^\infty_{2}a_{i}f_{i} \land f_{i}(1)=0,i>2 \implies  \\ \implies& a_{2}=g(1)-a_{1}f_{1}(1)=g(1)-a_{1}.
 \end{align}$$
 
-This process can be inductively continued
+This process can be inductively continued to determine all coefficients uniquely, with 
