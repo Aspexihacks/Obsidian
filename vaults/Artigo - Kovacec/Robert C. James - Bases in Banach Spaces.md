@@ -16,3 +16,13 @@ $x \in c_{0} \implies x=(x_{1},x_{2},x_{3},\dots)$ which tells us that the only 
 For this sequence of scalars $x$, $$\left\lvert  \left\lvert  x-\sum^n_{i=1}x_{i}e_{i} \right\rvert \right\rvert=\max\{\lvert x_{i} \rvert :i>n\}. $$
 #### The space $\mathcal{L}_p$ 
 
+An important class of Banach spaces is given by the spaces $\mathcal{L}_p$ for $1 \leqslant p<\infty$, where $\mathcal{L}_p$ is the space of all sequences $x=\left\{x_i\right\}$ for which $\Sigma_1^{\infty}\left|x_i\right|^p$ is convergent and $\|x\|$ is $\left[\Sigma_1^{\infty}\left|x_i\right|^p\right]^{1 / p}$. With $\left\{e_n\right\}$ the same as for $c_0$,
+
+$$
+\left\|x-\sum_{i=1}^n x_i e_i\right\|=\left[\sum_{i=n+1}^{\infty}\left|x_i\right|^p\right]^{1 / p} \text { so } \lim _{n \rightarrow \infty}\left\|x-\sum_{i=1}^n x_i e_i\right\|=0 .
+$$
+
+
+# Background
+
+Defini
