@@ -61,3 +61,5 @@ Os princípios da dinâmica podem ser explicitados pelas ***leis de Newton:***
 	3. [[Lei da Ação e Reação]]
 
 Uma lei que pode vir a ser útil é a [[Lei da Gravitação Universal]].
+
+Um *diagrama de corpo livre* é uma forma esquemática de apresentar 
