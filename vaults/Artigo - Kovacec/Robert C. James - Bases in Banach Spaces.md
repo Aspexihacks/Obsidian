@@ -51,3 +51,4 @@ When $Y$ is just $X$ with some other norm, then the old and new norms are said t
 
 # The Space $C[0,1]$ 
 
+An example 
