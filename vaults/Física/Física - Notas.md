@@ -70,3 +70,7 @@ Um *diagrama de corpo livre* é uma forma esquemática de apresentar todas as fo
 	5. Aplicar a segunda lei de Newton a cada componente de força e aceleração
 	6. Tirar conclusões
 
+Exemplo:
+![[Pasted image 20250621174101.png]]
+
+Existem algumas [[aplicações para as leis de Newton]] que servem alguns modelos simples.
