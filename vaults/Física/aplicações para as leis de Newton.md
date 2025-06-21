@@ -6,3 +6,11 @@
 
 ![[Pasted image 20250621174751.png]]
 
+# Leitura de uma balança
+
+![[Pasted image 20250621174827.png]]
+
+# Dois corpos ligados por uma corda passando por uma roldana
+
+![[Pasted image 20250621174907.png]]
+

@@ -73,4 +73,8 @@ Um *diagrama de corpo livre* é uma forma esquemática de apresentar todas as fo
 Exemplo:
 ![[Pasted image 20250621174101.png]]
 
-Existem algumas [[aplicações para as leis de Newton]] que servem alguns modelos simples.
+Existem algumas [[aplicações para as leis de Newton]] que servem alguns modelos "simples".
+
+**Forças elásticas:** Ocorrem quando esticamos uma mola ou deformamos um corpo sólido e elástico.
+
+Estas forças são-nos dadas pela *Lei de Hooke:*$$\vec{F}=-k\Delta \vec{x}$$onde $k$ é chamada
