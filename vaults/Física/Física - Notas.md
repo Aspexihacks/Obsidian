@@ -77,4 +77,7 @@ Existem algumas [[aplicações para as leis de Newton]] que servem alguns modelo
 
 **Forças elásticas:** Ocorrem quando esticamos uma mola ou deformamos um corpo sólido e elástico.
 
-Estas forças são-nos dadas pela *Lei de Hooke:*$$\vec{F}=-k\Delta \vec{x}$$onde $k$ é chamada
+Estas forças são-nos dadas pela *Lei de Hooke:*$$\vec{F}=-k\Delta \vec{x}$$onde $k$ é a constante elástica e $\Delta x$ a variação de comprimento da mola (ou sólido) que originou a força.
+
+As forças elásticas têm sempre sentido oposto às deformações que as causam.
+
