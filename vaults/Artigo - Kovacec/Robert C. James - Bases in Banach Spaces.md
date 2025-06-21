@@ -80,8 +80,6 @@ If $\{e_{n}\}$ is a basis for $X$, it clearly needs to dense in $X$. *Not being 
 ## A useful inequality
 
 Suppose the linear span of $\{e_n\}$ is dense in $X$, no $e_{n}$ is 0 and there is a positive $K$ such that, for all $n,p \in \mathbb{N}$ and scalars $\{a_{i}\}$,$$K\left\lvert  \left\lvert  \sum^{n+p}_{i=1}  \right\rvert   \right\rvert \geq \left\lvert  \left\lvert  \sum ^{n}_{i=1}a_{i}e_{i}  \right\rvert   \right\rvert. $$
-For each $k$, let $x^{*}_{k}$ be a linear functional defined on $lin\{e_{n}\}$ by letting $\left( e^{*}_{k},\sum^{n}_{1}a_{i}e_{i} \right)$ be $a_k$ in $n\geq k$ and 0 otherwise. Then each ${e^*_k}$ is continuous. In fact, for any $x=\sum^{\infty}_{1}x_{i}e_{i}$ with finitely many nonzero terms, \begin{aligned}
-&\left|\left(e_k^*, x\right)\right|=\left|x_k\right|=\left\|\sum_1^k x_i e_i-\sum_1^{k-1} x_i e_i\right\| /\left\|e_k\right\| \leqslant 2 K\|x\| /\left\|e_k\right\|,\\
-&\text { so }\\
-&\left\|e_k^*\right\| \leqslant \frac{2 K}{\left\|e_k\right\|}
-\end{aligned}
+For each $k$, let $x^{*}_{k}$ be a linear functional defined on $lin\{e_{n}\}$ by letting $\left( e^{*}_{k},\sum^{n}_{1}a_{i}e_{i} \right)$ be $a_k$ in $n\geq k$ and 0 otherwise. Then each ${e^*_k}$ is continuous. In fact, for any $x=\sum^{\infty}_{1}x_{i}e_{i}$ with finitely many nonzero terms, $$
+\left|\left(e_k^*, x\right)\right|=\left|x_k\right|=\left\|\sum_1^k x_i e_i-\sum_1^{k-1} x_i e_i\right\|/\left\|e_k\right\| \leqslant 2 K\|x\| /\left\|e_k\right\|,$$
+so$$\left\|e_k^*\right\| \leqslant \frac{2 K}{\left\|e_k\right\|},$$and $e^{*}_{k}$ can be extended by continuity to all of $X$. The linear functionals $\{e^{*}_n\}$ are the coefficient functionals of $\{e_{n}\}$.
