@@ -32,11 +32,15 @@ $$
 **Definition:** A Banach space $X$ is said to be *separable* if it contains a dense sequence.
 	*Equivalent characterization*: $X$ contains a sequence $\{x_n\}$ for which $X=cl[lin(\{x_{n}\})]$.
 
-**Definition:** A linear mapping $T:X \to Y$ is *continuous* iff it is continuous at 0, or iff there is $\lvert \lvert T \rvert \rvert$ for which$$\sup\{\lvert \lvert Tx \rvert  \rvert:||x||\leq 1 \}=||T||<\infty.$$This number is the least $M$ such that $||Tx||\leq M||x||$ for each $x$.
+**Definition:** A linear mapping $T:X \to Y$ is *continuous* iff it is continuous at 0, or iff there is $\lvert \lvert T \rvert \rvert$ for which$$\sup\{\lvert \lvert Tx \rvert  \rvert:||x||\leq 1 \}=||T||<\infty.\tag{1}$$This number is the least $M$ such that $||Tx||\leq M||x||$ for each $x$.
 
 **Definition:** Two spaces $X,Y$ are said *isomorphic* if there is an algebraic isomorphism $T:X\to Y$ for which both $T$ and $T^{-1}$ are continuous. When this happen, there are $\alpha, \beta>0$ for which $$\alpha||x||\leq||Tx||\leq \beta||x||,\quad x \in X.$$For $\alpha=\beta=1$, $X$ and $Y$ are said *isometric*. 
 When $Y$ is just $X$ with some other norm, then the old and new norms are said to be *equivalent* if $X,Y$ are isomorphic with $T=id$.
 
 **Definition:** A *linear functional* is a continuous linear mapping from $X$ into the space of scalars.
 
-**Definition:** The *first dual* of $X$ is the space of all linear functionals on $X$ 
+**Definition:** The *first dual* of $X$ is the space $X^*$ of all linear functionals on $X$. This space is complete with respect to the norm in $(1)$. 
+
+**Notation:** We usually denote a linear functional $\phi$ with $(\phi,x)$ or $(x,\phi), instead of $\phi(x)$.
+
+**Hahn-Banach Theorem:** If $\phi$ is a linear functional on a linear subset $L$ of a Banach space $X$, then there is a linear functional $\Phi$ on $X$ for which $||\phi||_{L}=||\Phi|| and$
