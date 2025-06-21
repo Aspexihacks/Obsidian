@@ -53,6 +53,10 @@ When $Y$ is just $X$ with some other norm, then the old and new norms are said t
 
 An example which proves that not all basis can be found as simply as for the spaces talked about before is the space $C[0,1]$. 
 
-What is the $C[0,1]$ space ? It is the real space of real-valued functions that are continuous on the closed interval $[0,1]$, with $||f||=\max|f|$ on $[0,1]$. By using this norm, the convergence of a sequence of continuous functions in $C[0,1]$ means uniform convergence.
+## What is the $C[0,1]$ space ?
 
-Ho
+It is the real space of real-valued functions that are continuous on the closed interval $[0,1]$, with $||f||=\max|f|$ on $[0,1]$. By using this norm, the convergence of a sequence of continuous functions in $C[0,1]$ means uniform convergence.
+
+## How can we describe a basis $\{f_{n}\}$ for $C[0,1]$?
+
+Let $\{t_{i}\}$ be the sequence of dyadic numbers in $[0,1]$: $0, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \frac{1}{8}, \frac{3}{8}, \frac{5}{8}, \frac{7}{8},\dots$ . 
