@@ -58,4 +58,4 @@ Forças de contacto são sempre *distribuídas* ao longo de toda a região de co
 Os princípios da dinâmica podem ser explicitados pelas ***leis de Newton:*** 
 	1. [[Lei da Inércia]]
 	2. [[Lei Fundamental da Dinâmica]]
-	3. [[Lei da]]
+	3. [[Lei da Ação e Reação]]
