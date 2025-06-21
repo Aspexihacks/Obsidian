@@ -49,6 +49,13 @@ Todas as forças que são observadas na natureza podem ser descritas em função
 
 As *forças de contacto entre sólidos* encaixam-se em forças eletromagnéticas.
 
-**Força normal:** É a componente de força de contacto perpendicular às superfícies em contacto.
+**Força normal:** É a componente de força de contacto *perpendicular* à superfície de contacto.
 
-Força de atri
+**Força de atrito:** É a componente de força de contacto *paralela* à superfície de contacto.
+
+Forças de contacto são sempre *distribuídas* ao longo de toda a região de contacto, embora às vezes representemos como forças pontuais.
+
+Os princípios da dinâmica podem ser explicitados pelas ***leis de Newton:*** 
+	1. [[Lei da Inércia]]
+	2. [[Lei Fundamental da Dinâmica]]
+	3. [[Lei da]]
