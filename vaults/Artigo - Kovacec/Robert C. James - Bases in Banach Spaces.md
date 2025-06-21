@@ -51,4 +51,8 @@ When $Y$ is just $X$ with some other norm, then the old and new norms are said t
 
 # The Space $C[0,1]$ 
 
-An example 
+An example which proves that not all basis can be found as simply as for the spaces talked about before is the space $C[0,1]$. 
+
+What is the $C[0,1]$ space ? It is the real space of real-valued functions that are continuous on the closed interval $[0,1]$, with $||f||=\max|f|$ on $[0,1]$. By using this norm, the convergence of a sequence of continuous functions in $C[0,1]$ means uniform convergence.
+
+Ho
