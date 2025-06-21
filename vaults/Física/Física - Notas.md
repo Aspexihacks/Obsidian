@@ -39,3 +39,16 @@ Todos os objetos estão sujeitos á mesma aceleração, quando estão nas proxim
 
 **Força:** Grandeza vetorial que representa uma interação.
 
+**Interações à distância:** Aquilo que introduz o conceito de *campo*( de forças).
+
+Todas as forças que são observadas na natureza podem ser descritas em função das **quatro interações fundamentais**:
+	1. Força Gravitacional
+	2. Força Eletromagnética
+	3. Força nuclear forte
+	4. Força nuclear fraca
+
+As *forças de contacto entre sólidos* encaixam-se em forças eletromagnéticas.
+
+**Força normal:** É a componente de força de contacto perpendicular às superfícies em contacto.
+
+Força de atri
