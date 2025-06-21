@@ -71,3 +71,7 @@ h-a_{1}f_{1}=&\sum^\infty_{2}a_{i}f_{i} \land f_{i}(1)=0,i>2 \implies  \\ \impli
 \end{align}$$
 
 This process can be inductively continued to determine all coefficients uniquely:$$a_{n}=h(t_{n})-\sum ^{n-1}_{1}a_{i}f_{i}(t_{n}).$$
+Since $\{t_i\}$ is dense in $[0,1]$ and $h$ is uniformly continuous, $\sum ^n_{1}a_{i}f_{i}$ converges uniformly to $h$. This basis is also normalized.
+
+# Bases and Projections
+
