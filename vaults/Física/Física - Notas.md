@@ -59,3 +59,5 @@ Os princípios da dinâmica podem ser explicitados pelas ***leis de Newton:***
 	1. [[Lei da Inércia]]
 	2. [[Lei Fundamental da Dinâmica]]
 	3. [[Lei da Ação e Reação]]
+
+Uma lei que pode vir a ser útil é a [[Lei da Gravitação Universal]] 
