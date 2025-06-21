@@ -81,3 +81,7 @@ Estas forças são-nos dadas pela *Lei de Hooke:*$$\vec{F}=-k\Delta \vec{x}$$ond
 
 As forças elásticas têm sempre sentido oposto às deformações que as causam.
 
+O sistema para momentaneamente numa posição de compressão máxima, começando a mover-se no sentido inverso (*a mola tende a voltar ao equilíbrio*). Chegando a essa posição, como o sistema tem velocidade, *não para e começa de novo a distender a mola*. A força restauradora começa a agir em sentido contrário… e *o movimento repete-se indefinidamente* (**oscilações**).
+
+O tipo de movimento descrito acima segue uma onda sinusoidal em função do tempo ($A\cdot\sin\left( \frac{2\pi}{T} t \right)$ ou $A\cdot\cos\left( \frac{2\pi}{T} t \right)$)
+
