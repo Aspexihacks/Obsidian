@@ -37,4 +37,6 @@ $$
 **Definition:** Two spaces $X,Y$ are said *isomorphic* if there is an algebraic isomorphism $T:X\to Y$ for which both $T$ and $T^{-1}$ are continuous. When this happen, there are $\alpha, \beta>0$ for which $$\alpha||x||\leq||Tx||\leq \beta||x||,\quad x \in X.$$For $\alpha=\beta=1$, $X$ and $Y$ are said *isometric*. 
 When $Y$ is just $X$ with some other norm, then the old and new norms are said to be *equivalent* if $X,Y$ are isomorphic with $T=id$.
 
-**Definition:** 
+**Definition:** A *linear functional* is a continuous linear mapping from $X$ into the space of scalars.
+
+**Definition:** The *first dual* of $X$ is the space of all linear functionals on $X$ 
