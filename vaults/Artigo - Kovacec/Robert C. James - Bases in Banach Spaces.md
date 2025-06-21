@@ -75,4 +75,5 @@ Since $\{t_i\}$ is dense in $[0,1]$ and $h$ is uniformly continuous, $\sum ^n_{1
 
 # Bases and Projections
 
-If $\{e_{n}\}$ is a basis for $X$, it clearly needs to dense in $X$. *Not being sufficient, even if we suppose the linear independence. An example of this is the sequence of polynomials $\{t^{n-1}:n\geq1 g_{5}\}$* 
+If $\{e_{n}\}$ is a basis for $X$, it clearly needs to dense in $X$. *Not being sufficient, even if we suppose the linear independence. An example of this is the sequence of polynomials $\{t^{n-1}:n\geq1\}$ which is not a basis for $C[0,1]$.* 
+
