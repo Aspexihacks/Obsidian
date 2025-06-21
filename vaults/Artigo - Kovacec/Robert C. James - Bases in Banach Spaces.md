@@ -65,5 +65,5 @@ f_{n}(t_{j})=0,\quad j<n \\
 f_{n}(t_{n})=1
 \end{cases}\quad,$$and let $f_{n}$ be linear between any two neighbors among the first $n$ dyadic points.
 
-We now need to show that it is a basis, for this, it will be enough to prove that any $h \in C[0,1]$ has a unique representation as the infinite sum of $a_{i}f_{i},i\geq1$.
-
+We now need to show that it is a basis, for this, it will be enough to prove that any $h \in C[0,1]$ has a unique representation as the infinite sum of $a_{i}f_{i},i\geq1$.$$h(0) = a_{1}\cdot 1+ a_{2}\cdot t + 0+0+\dots=a_{1}.$$
+$$h-a_{1}f_{1}=\sum^\infty_{2}a_{i}f_{i} \$$
