@@ -37,5 +37,7 @@ Todos os objetos estão sujeitos á mesma aceleração, quando estão nas proxim
 
 **[[Movimento em duas ou três dimensões]]**: Devemos fixar um referencial que seja independente ao movimento e posições.
 
-**Força:** Grandeza vetorial
+**Força:** Grandeza vetorial que representa uma interação.
+
+
 
