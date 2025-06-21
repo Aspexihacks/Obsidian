@@ -59,4 +59,5 @@ It is the real space of real-valued functions that are continuous on the closed 
 
 ## How can we describe a basis $\{f_{n}\}$ for $C[0,1]$?
 
-Let $\{t_{i}\}$ be the sequence of dyadic numbers in $[0,1]$: $0, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \frac{1}{8}, \frac{3}{8}, \frac{5}{8}, \frac{7}{8},\dots$ . 
+Let $\{t_{i}\}$ be the sequence of dyadic numbers in $[0,1]$: $$0, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \frac{1}{8}, \frac{3}{8}, \frac{5}{8}, \frac{7}{8},\dots .$$ 
+Now we let $f_{1}=1,f_{2}=t$ and for each $n>2$
