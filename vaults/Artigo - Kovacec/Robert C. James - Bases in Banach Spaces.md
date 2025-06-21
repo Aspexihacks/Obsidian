@@ -43,4 +43,7 @@ When $Y$ is just $X$ with some other norm, then the old and new norms are said t
 
 **Notation:** We usually denote a linear functional $\phi$ with $(\phi,x)$ or $(x,\phi), instead of $\phi(x)$.
 
-**Hahn-Banach Theorem:** If $\phi$ is a linear functional on a linear subset $L$ of a Banach space $X$, then there is a linear functional $\Phi$ on $X$ for which $||\phi||_{L}=||\Phi|| and$
+**Hahn-Banach Theorem:** If $\phi$ is a linear functional on a linear subset $L$ of a Banach space $X$, then there is a linear functional $\Phi$ on $X$ for which $||\phi||_{L}=||\Phi||$ and $(\Phi,x)=(\phi,x)$ if $x \in L$.
+	Sometimes instead of using the theorem it self we might use that for each $x$ nonzero element of $X$ , there is a linear functional $x^{*}$for which $||x^{*}||=1$ and $(x^{*},x)=||x||.$
+
+**Inverse-Mapping Theorem:** If $T$ is a continuous linear one-to-one mapping of a Banach Space $X$ onto a Banach space $Y$, then $T$
