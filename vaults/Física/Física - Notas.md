@@ -67,3 +67,6 @@ Um *diagrama de corpo livre* é uma forma esquemática de apresentar todas as fo
 	2. Identificar todas as forças que atuam no sistema
 	3. Escolher um referencial conveniente
 	4. Representar o diagrama usando o referencial as forças e a aceleração
+	5. Aplicar a segunda lei de Newton a cada componente de força e aceleração
+	6. Tirar conclusões
+
