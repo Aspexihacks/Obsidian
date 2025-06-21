@@ -62,4 +62,8 @@ Os princípios da dinâmica podem ser explicitados pelas ***leis de Newton:***
 
 Uma lei que pode vir a ser útil é a [[Lei da Gravitação Universal]].
 
-Um *diagrama de corpo livre* é uma forma esquemática de apresentar 
+Um *diagrama de corpo livre* é uma forma esquemática de apresentar todas as forças que estão a ser aplicadas ou que atuam no sistema em estudo. Podemos seguir alguns passos para criar um destes diagramas:
+	1. Identificar o sistema em estudo
+	2. Identificar todas as forças que atuam no sistema
+	3. Escolher um referencial conveniente
+	4. Representar o diagrama usando o referencial as forças e a aceleração
