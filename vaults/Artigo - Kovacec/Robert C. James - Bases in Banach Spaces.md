@@ -27,7 +27,9 @@ $$
 
 **Definition:** A *Banach Space* is a linear space with either real or complex scalars which has a norm, $\lvert \lvert \cdot \rvert \rvert$, defined in it and is a complete metric space with respect to $d(x,y)=\lvert \lvert x-y \rvert \rvert$.
 
-**Notation:** We will denote by $lin(A)$ to denote the algebraic linear span of A.
+**Notation:** We will use $lin(A)$ to denote the algebraic linear span of $A$ and $cl[A]$ to denote the closure of $A$.
 
 **Definition**: A Banach space $X$ is said to be *separable* if it contains a dense sequence.
-	*Equivalent characterization*: $X$ contains a sequence \{x_n\}
+	*Equivalent characterization*: $X$ contains a sequence $\{x_n\}$ for which $X=cl[lin(\{x_{n}\})]$.
+
+A linear mapping $T:X \to Y$ is *continuous* iff it is continuous at 0, or iff there is $\lvert \lvert T \rvert \rvert$ for which$$\sup\{\lvert \lvert Tx \rvert  \rvert:||x||\leq 1 \}=||T||<\infty.$$
