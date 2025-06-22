@@ -133,4 +133,6 @@ Já vimos [[duas forças de interação que são fontes de  energia potencial]].
 
 Como a resultante das forças aplicadas a um corpo, $\vec{R}$, verifica sempre que $W(R)=\Delta E_{c}$ e, que para a força da gravidade $\vec{F}_{g}$, tem-se $W(F_g)=-\Delta E_{pg}$.
 
-Desta forma, se a força resultante foir 
+Desta forma, se a força resultante for igual à força gravítica, tem-se que $\Delta E_{c}=-\Delta E_{pg}$.
+
+**Energia mecânica:** Define-se por$$E_{m}=E_{c}+E_{pg},$$além disso, temos que a variação da energia mecânica é nula.
