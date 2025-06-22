@@ -124,4 +124,6 @@ Em muitos casos, o trabalho realizado por forças externas sobre o sistema não 
 **Força conservativa:** Força que realiza trabalho nulo sobre um ponto material ao longo de qualquer trajeto fechado. Em [[Análise IV (Integral Curvílineo)]] dizemos que o integral curvilíneo aplicado a essa força é *independente de caminho*.
 	Uma característica destas forças é que o trabalho realizado por ela é sempre *reversível*, isto é, toda a energia armazenada como energia potencial pode ser recuperada sem perdas de movimento (em contexto de velocidade/aceleração).
 
-**Forças não conservativas**
+**Forças não conservativas:** São as forças que não são independentes de caminho.
+	Algumas destas, como o atrito e resistência num fluido, produzem a dissipação de energia mecânica, estas são chamadas *forças dissipativas*.
+	Existem também algumas que produzem um aumento de energia, como explosões
