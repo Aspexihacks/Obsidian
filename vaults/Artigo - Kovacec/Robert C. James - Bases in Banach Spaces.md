@@ -97,4 +97,8 @@ We will usually say that $x$ is *orthogonal* to $y$ if $||x+k||\geq ||x||,\foral
 Any basis $\{e_{n}\}$ becomes monotone if the norm is replaced by the norm $|||\cdot|||$ for which$$|||x|||=\sup\bigg\{\bigg|\bigg|\sum^n_{i=1}\bigg|\bigg|:n\geq 1\bigg\},\quad \text{if }x=\sum^\infty_{i=1}x_{i}e_{i}.$$
 This theorem is also described in terms of projections, that is, if we put $\{e_n\}$ as a basis for $X$ and we define $P_{n}(x)$ to be $\sum^n_{1} x_{i}e_{i}$ if $x=\sum^n_{1}x_{i}e_{i}$, then $P_{n}^2=P_{n}$. 
 
-$(1)$ implies $K||x||\geq||P_n(x)||$, so $P_n$ is continuous and $||P_{n}||\leq K$.
+$(1)$ implies $K||x||\geq||P_n(x)||$, so $P_n$ is continuous and $||P_{n}||\leq K$. So, for all $P_n$'s described earlier are projections and their norms are bounded by $K$.
+
+This way, we can now rewrite the theorem in terms of projections:
+
+**Theorem:(Rewritten)** If the linear span of $\left\{e_n\right\}$ is dense in $X$ and no $e_n$ is 0 , then $\left\{e_n\right\}$ is a basis for $X$ if and only if there is a sequence $\{P_{n}\}$ of uniformly bounded projections on $X$ for which the range of $P_n$ is $lin\{e_{i}:i\leq n\}$ and $P_{n}(e_{i})=0$ if $i>n$.
