@@ -105,7 +105,7 @@ This way, we can now rewrite the theorem in terms of projections:
 
 This theorem is used to prove that a candidate for a basis is an actual basis.
 
-An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1] ]], $\mathcal{L}_{p}[0,1]$.
+An example of its usage is proving that, $\{\phi_{i}\}$, [[the Haar System is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1] ]], $\mathcal{L}_{p}[0,1]$.
 
 # Equivalent Basis
 
@@ -116,3 +116,4 @@ An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is
 Even with the given theorem above, bases do have some stability. If each basis vector is perturbed by a sufficiently small amount, it remains a basis and is equivalent to the original basis.
 
 **Theorem:** If $\{u_{n}\}$ is a normalized basis of $X$ and $\{u^*_n\}$ is the corresponding sequence of coefficient functionals, then $\{v_n\}$ is a basis for $X$ and is equivalent to $\{u_{n}\}$ if $$\sum^\infty_{i=1}||u_{i}-v_{i}||\ ||u_{i}^*||<1.$$
+$Proof:$ Let $K$ 

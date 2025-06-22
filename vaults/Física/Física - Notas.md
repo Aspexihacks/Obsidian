@@ -135,4 +135,5 @@ Já vimos [[duas forças de interação que são fontes de  energia potencial]].
 **Princípio da conservação da energia:** A energia pode ser convertida de uma forma para a outra ou transmitida de uma região para outra, mas não pode ser criada ou destruída.
 
 Geralmente, a energia total de um sistema é a soma de todas as energias nele, sejam elas mecânicas, térmicas, química, etc. $$E_{sistema}=E_{m}+E_{q}+E_{t}+\dots\ .$$
-Se a única fonte de energia transferida for 
+Se a única fonte de energia transferida for a realização de trabalho sobre o sistema a partir do exterior, então a lei da conservação de energia fica: $$W_{ext}=\Delta E_{sistema}.$$
+
