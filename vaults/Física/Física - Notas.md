@@ -85,4 +85,13 @@ O sistema para momentaneamente numa posição de compressão máxima, começando
 
 O tipo de movimento descrito acima segue uma onda sinusoidal em função do tempo ($A\cdot\sin\left( \frac{2\pi}{T} t \right)$ ou $A\cdot\cos\left( \frac{2\pi}{T} t \right)$).
 
-**Trabalho:** 
+**Trabalho:** É realizado por uma força se o ponto de aplicação da mesma se move numa direção não perpendicular à própria força.
+
+**Transferência de Energia:** Dá-se sempre que um sistema realiza trabalho sobre outro.
+
+**Energia Cinética:** Tem haver com o movimento do corpo.
+
+**Energia Potencial:** Está intimamente ligada com a maneira como o sistema está posto.
+
+**Definição:** O *trabalho* é definido como o produto interno da força com o deslocamento do ponto de aplicação.
+	Dada uma força cons
