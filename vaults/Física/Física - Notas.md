@@ -115,3 +115,5 @@ Há uma importante relação entre a energia cinética e o trabalho:
 		$\mathcal{Prova:}$ $$\begin{align}
 W_{AB}&=\int_{A}^{B}\vec{F}_{res}\cdot d \vec{r} = \int_{A}^{B} F_{res,t}ds=\\&=\int_{A}^{B}ma_{t}ds=\int_{A}^{B}m \frac{dv}{ds}ds=\\&=\int_{A}^{B}mv\ dv=\frac{1}{2}mv^{2}_{B}-\frac{1}{2}mv^{2}_{A}=\Delta K
 \end{align}$$
+	**Formulação alternativa:** Quando se realiza trabalho sobre um sistema e a única alteração que se observa nesse sistema é a sua velocidade, o trabalho total realizado sobre o sistema é então dado pela variação de energia cinética.
+
