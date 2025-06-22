@@ -132,3 +132,4 @@ Para forças conservativas, podemos definir a *função energia potencial* assoc
 Já vimos [[duas forças de interação que são fontes de  energia potencial]].
 
 
+**Princípio da conservação da energia:** 

@@ -41,4 +41,9 @@ Mesmo que estas não sejam as únicas a atuar, se as outras não realizarem trab
 
 # Aplicações em exercícios
 
-Os problemas que podem ser reso
+Os problemas que podem ser resolvidos pela lei da conservação da energia mecânica também podem ser resolvidos pelas leis de Newton, mas com mais dificuldade.
+
+A velocidade de um corpo que desliza sem atrito num plano com inclinação constate pode ser facilmente achada ao aplicar a segunda lei de Newton ou até a lei da conservação da energia mecânica.
+
+Se a rampa não tiver inclinação constante o problema ainda pode ser resolvido facilmente pela conservação da energia mecânica, mas neste caso a aplicação da segunda lei de Newton será muito mais difícil.
+
