@@ -119,3 +119,6 @@ W_{AB}&=\int_{A}^{B}\vec{F}_{res}\cdot d \vec{r} = \int_{A}^{B} F_{res,t}ds=\\&=
 
 **Potência:** Trabalho realizado por unidade de tempo, sendo a *potência média* dada por $$P_{med}=\frac{W}{\Delta t}.$$
 A *potência instantânea (Watt ou J/s)*, tal como a velocidade e aceleração instantânea é dada pela derivada do trabalho, isto é, $$P= \frac{dW}{dt}=\vec{F}\cdot \vec{v}\ \ \ .$$
+Em muitos casos, o trabalho realizado por forças externas sobre o sistema não aumenta a energia cinética, mas é armazenado em forma de *energia potencial*.
+
+**Força conservativa:** Força que realiza trabalho nulo sobre um ponto material ao longo de qualquer trajeto fechado. Em [[Análise IV (Integral Curvílineo)]] dizemos que o integral curvilíneo 
