@@ -126,4 +126,6 @@ Em muitos casos, o trabalho realizado por forças externas sobre o sistema não 
 
 **Forças não conservativas:** São as forças que não são independentes de caminho.
 	Algumas destas, como o atrito e resistência num fluido, produzem a dissipação de energia mecânica, estas são chamadas *forças dissipativas*.
-	Existem também algumas que produzem um aumento de energia, como explosões
+	Existem também algumas que produzem um aumento de energia, como explosões, etc.
+
+Para forças conservativas, podemos definir a *função energia potencial* associada a essas forças:$$\Delta \mathcal{U} =$$
