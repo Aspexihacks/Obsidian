@@ -94,4 +94,8 @@ O tipo de movimento descrito acima segue uma onda sinusoidal em função do temp
 **Energia Potencial:** Está intimamente ligada com a maneira como o sistema está posto.
 
 **Definição:** O *trabalho* é definido como o produto interno da força com o deslocamento do ponto de aplicação.
-	Dada uma força cons
+	Dada uma força constante:$$W=\vec{F}\cdot \Delta \vec{x}=F\Delta x \cos \theta$$onde $F, \Delta x$ são a norma de $\vec{F}, \Delta \vec{x}$ e $\theta$ é o ângulo entre $\vec{F}\text{ e } \Delta \vec{x}$.
+	A sua unidade SI é o joule (J).
+
+A nossa questão inicial será então: "Se tivermos uma força não constante, como definimos o trabalho?"
+
