@@ -39,3 +39,49 @@ Todos os objetos estão sujeitos á mesma aceleração, quando estão nas proxim
 
 **Força:** Grandeza vetorial que representa uma interação.
 
+**Interações à distância:** Aquilo que introduz o conceito de *campo*( de forças).
+
+Todas as forças que são observadas na natureza podem ser descritas em função das **quatro interações fundamentais**:
+	1. Força Gravitacional
+	2. Força Eletromagnética
+	3. Força nuclear forte
+	4. Força nuclear fraca
+
+As *forças de contacto entre sólidos* encaixam-se em forças eletromagnéticas.
+
+**Força normal:** É a componente de força de contacto *perpendicular* à superfície de contacto.
+
+**Força de atrito:** É a componente de força de contacto *paralela* à superfície de contacto.
+
+Forças de contacto são sempre *distribuídas* ao longo de toda a região de contacto, embora às vezes representemos como forças pontuais.
+
+Os princípios da dinâmica podem ser explicitados pelas ***leis de Newton:*** 
+	1. [[Lei da Inércia]]
+	2. [[Lei Fundamental da Dinâmica]]
+	3. [[Lei da Ação e Reação]]
+
+Uma lei que pode vir a ser útil é a [[Lei da Gravitação Universal]].
+
+Um *diagrama de corpo livre* é uma forma esquemática de apresentar todas as forças que estão a ser aplicadas ou que atuam no sistema em estudo. Podemos seguir alguns passos para criar um destes diagramas:
+	1. Identificar o sistema em estudo
+	2. Identificar todas as forças que atuam no sistema
+	3. Escolher um referencial conveniente
+	4. Representar o diagrama usando o referencial as forças e a aceleração
+	5. Aplicar a segunda lei de Newton a cada componente de força e aceleração
+	6. Tirar conclusões
+
+Exemplo:
+![[Pasted image 20250621174101.png]]
+
+Existem algumas [[aplicações para as leis de Newton]] que servem alguns modelos "simples".
+
+**Forças elásticas:** Ocorrem quando esticamos uma mola ou deformamos um corpo sólido e elástico.
+
+Estas forças são-nos dadas pela *Lei de Hooke:*$$\vec{F}=-k\Delta \vec{x}$$onde $k$ é a constante elástica e $\Delta x$ a variação de comprimento da mola (ou sólido) que originou a força.
+
+As forças elásticas têm sempre sentido oposto às deformações que as causam.
+
+O sistema para momentaneamente numa posição de compressão máxima, começando a mover-se no sentido inverso (*a mola tende a voltar ao equilíbrio*). Chegando a essa posição, como o sistema tem velocidade, *não para e começa de novo a distender a mola*. A força restauradora começa a agir em sentido contrário… e *o movimento repete-se indefinidamente* (**oscilações**).
+
+O tipo de movimento descrito acima segue uma onda sinusoidal em função do tempo ($A\cdot\sin\left( \frac{2\pi}{T} t \right)$ ou $A\cdot\cos\left( \frac{2\pi}{T} t \right)$)
+

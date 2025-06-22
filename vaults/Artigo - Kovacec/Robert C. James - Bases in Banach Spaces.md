@@ -67,7 +67,26 @@ f_{n}(t_{n})=1
 
 We now need to show that it is a basis, for this, it will be enough to prove that any $h \in C[0,1]$ has a unique representation as the infinite sum of $a_{i}f_{i},i\geq1$.$$h(0) = a_{1}\cdot 1+ a_{2}\cdot t + 0+0+\dots=a_{1}.$$
 $$\begin{align}
-h-a_{1}f_{1}=&\sum^\infty_{2}a_{i}f_{i} \land f_{i}(1)=0,i>2 \implies  \\ \implies& a_{2}=g(1)-a_{1}f_{1}(1)=g(1)-a_{1}.
+h-a_{1}f_{1}=&\sum^\infty_{2}a_{i}f_{i} \land f_{i}(1)=0,i>2 \implies  \\ \implies& a_{2}=h(1)-a_{1}h_{1}(1)=h(1)-a_{1}.
 \end{align}$$
+ This process can be inductively continued to determine all coefficients uniquely, with 
 
-This process can be inductively continued to determine all coefficients uniquely, with 
+This process can be inductively continued to determine all coefficients uniquely:$$a_{n}=h(t_{n})-\sum ^{n-1}_{1}a_{i}f_{i}(t_{n}).$$
+Since $\{t_i\}$ is dense in $[0,1]$ and $h$ is uniformly continuous, $\sum ^n_{1}a_{i}f_{i}$ converges uniformly to $h$. This basis is also normalized.
+
+# Bases and Projections
+
+If $\{e_{n}\}$ is a basis for $X$, it clearly needs to dense in $X$. *Not being sufficient, even if we suppose the linear independence. An example of this is the sequence of polynomials $\{t^{n-1}:n\geq1\}$ which is not a basis for $C[0,1]$.* 
+
+## A useful inequality
+
+Suppose the linear span of $\{e_n\}$ is dense in $X$, no $e_{n}$ is 0 and there is a positive $K$ such that, for all $n,p \in \mathbb{N}$ and scalars $\{a_{i}\}$,$$K\left\lvert  \left\lvert  \sum^{n+p}_{i=1}  \right\rvert   \right\rvert \geq \left\lvert  \left\lvert  \sum ^{n}_{i=1}a_{i}e_{i}  \right\rvert   \right\rvert. $$
+For each $k$, let $x^{*}_{k}$ be a linear functional defined on $lin\{e_{n}\}$ by letting $\left( e^{*}_{k},\sum^{n}_{1}a_{i}e_{i} \right)$ be $a_k$ in $n\geq k$ and 0 otherwise. Then each ${e^*_k}$ is continuous. In fact, for any $x=\sum^{\infty}_{1}x_{i}e_{i}$ with finitely many nonzero terms, $$
+\left|\left(e_k^*, x\right)\right|=\left|x_k\right|=\left\|\sum_1^k x_i e_i-\sum_1^{k-1} x_i e_i\right\|/\left\|e_k\right\| \leqslant 2 K\|x\| /\left\|e_k\right\|,$$
+so$$\left\|e_k^*\right\| \leqslant \frac{2 K}{\left\|e_k\right\|},$$and $e^{*}_{k}$ can be extended by continuity to all of $X$. 
+
+**Definition:** The linear functionals $\{e^{*}_n\}$ are the *coefficient functionals* of $\{e_{n}\}$.
+
+## An important description of a kind of "independence"
+
+**Theorem:** If the linear span of $\left\{e_n\right\}$ is dense in $X$ and no $e_n$ is 0 , then $\left\{e_n\right\}$ is a basis for $X$ if and only if there is a positive $K$ such that, for all positive integers $n$ and $p$ and scalars $\left\{a_i\right\}$,$$K\left\|\sum_{i=1}^{n+p} a_i e_i\right\| \geqslant\left\|\sum_{i=1}^n a_i e_i\right\| .$$
