@@ -90,3 +90,4 @@ so$$\left\|e_k^*\right\| \leqslant \frac{2 K}{\left\|e_k\right\|},$$and $e^{*}_{
 ## An important description of a kind of "independence"
 
 **Theorem:** If the linear span of $\left\{e_n\right\}$ is dense in $X$ and no $e_n$ is 0 , then $\left\{e_n\right\}$ is a basis for $X$ if and only if there is a positive $K$ such that, for all positive integers $n$ and $p$ and scalars $\left\{a_i\right\}$,$$K\left\|\sum_{i=1}^{n+p} a_i e_i\right\| \geqslant\left\|\sum_{i=1}^n a_i e_i\right\| .$$
+The least number $K$ satisfying this condition is called *the basis constant* of $\{e_{n}\}$. If the basis constant is 1, $||\sum_{i=1}^n a_i e_i||$ is a monotone increasing function of $n$ and the basis is considered to be *monotone*.
