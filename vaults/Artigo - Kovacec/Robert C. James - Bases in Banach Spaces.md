@@ -113,4 +113,6 @@ An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is
 
 **Theorem:** Let $X$ be an infinite dimensional Banach space with a Schauder basis. Then there are uncountably many mutually non-equivalent normalized bases in $X$.
 
-Even with the given theorem above, bases do have some stability. If each basis vector is perturbed by a 
+Even with the given theorem above, bases do have some stability. If each basis vector is perturbed by a sufficiently small amount, it remains a basis and is equivalent to the original basis.
+
+**Theorem:** If $\{u_{n}\}$ is a normalized basis of $X$ and $\{u^*_n\}$ is the corresponding sequence of coefficient functionals, then $\{v_n\}$ is a basis for $X$ and is equivalent to $\{u_{n}\}$ if $$\sum^\infty_{i=1}||u_{i}-v_{i}||\ ||u_{i}^*||<1.$$
