@@ -95,3 +95,4 @@ The least number $K$ satisfying this condition is called *the basis constant* of
 We will usually say that $x$ is *orthogonal* to $y$ if $||x+k||\geq ||x||,\forall k\in \mathbb{R}$.
 
 Any basis $\{e_{n}\}$ becomes monotone if the norm is replaced by the norm $|||\cdot|||$ for which$$|||x|||=\sup\bigg\{\bigg|\bigg|\sum^n_{i=1}\bigg|\bigg|:n\geq 1\bigg\},\quad \text{if }x=\sum^\infty_{i=1}x_{i}e_{i}.$$
+This theorem is usually 
