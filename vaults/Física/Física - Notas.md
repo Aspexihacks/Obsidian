@@ -110,3 +110,5 @@ O trabalho corresponde então a uma *transferência de energia* para o sistema, 
 **Trabalho da resultante das forças:** Dado um deslocamento $\Delta \vec{r}$ e a força resultante $\vec{F}_{R}=\sum_{i}\vec{F}_{i}$ onde $\vec{F}_{i}$ são forças atuando no corpo, temos como trabalho da resultante das forças$$\vec{F}_{R}\cdot \Delta \vec{r}.$$
 A *energia cinética* é por definição dada por $E_{c}\equiv K=\frac{1}{2}mv^{2}(Joule)$.
 
+Há uma importante relação entre a energia cinética e o trabalho:
+	**Teorema da Energia Cinética:** 
