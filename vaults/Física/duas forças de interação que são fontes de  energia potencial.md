@@ -12,4 +12,4 @@ Geralmente usa-se de referência a superfície da Terra ($y_0=0$) obtendo$$E_{pg
 
 ## Variação da energia potencial gravítica
 
-Para um corpo de massa $m$ que se desloca de $y_1$ para $y_2$ esta variação é dada por:$$\Delta E_{pg}=mgy_{2}-mgy_{1}=mg(y_{2}-y_{1})\ri(\implies W(F_{g})=-\Delta E_{pg})$$
+Para um corpo de massa $m$ que se desloca de $y_1$ para $y_2$ esta variação é dada por:$$\Delta E_{pg}=mgy_{2}-mgy_{1}=mg(y_{2}-y_{1})\bigg(\implies W(F_{g})=-\Delta E_{pg}\bigg)$$
