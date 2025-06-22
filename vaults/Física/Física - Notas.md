@@ -103,4 +103,8 @@ Para definir o trabalho realizado por uma força não constante ao longo de uma 
 
 Isto já foi visto em [[Análise IV (Integral Curvílineo)]], dando uma maneira rigorosa de provada de achar o trabalho dada uma força não constante.
 
-O trabalho corresponde então a uma *transferência de energia* para o sistema, isto é, 
+O trabalho corresponde então a uma *transferência de energia* para o sistema, isto é, se o trabalho for positivo, então o sistema recebe energia e se o trabalho for negativo, então o sistema perde energia.
+
+**Trabalho total:** Soma algébrica do trabalho que todas as forças realizam sobre um corpo.
+
+**Trabalho da resultante das forças:** Dado um de
