@@ -13,6 +13,14 @@ Geralmente usa-se de referência a superfície da Terra ($y_0=0$) obtendo$$E_{pg
 ## Variação da energia potencial gravítica
 
 Para um corpo de massa $m$ que se desloca de $y_1$ para $y_2$ esta variação é dada por:$$\Delta E_{pg}=mgy_{2}-mgy_{1}=mg(y_{2}-y_{1})\bigg(\implies W(F_{g})=-\Delta E_{pg}\bigg)$$
+Como a resultante das forças aplicadas a um corpo, $\vec{R}$, verifica sempre que $W(R)=\Delta E_{c}$ e, que para a força da gravidade $\vec{F}_{g}$, tem-se $W(F_g)=-\Delta E_{pg}$.
+
+Desta forma, se a força resultante for igual à força gravítica, tem-se que $\Delta E_{c}=-\Delta E_{pg}$.
+
+**Energia mecânica:** Define-se por$$E_{m}=E_{c}+E_{pg},$$além disso, temos que a variação da energia mecânica é nula.
+
+Reescrevendo então a equação $$\begin{align}\Delta E_{c}+\Delta E_{pg}=0&\iff E_{cf}-E_{ci}+E_{pgf}-E_{pgi}=0\iff\\ \\\ &\iff E_{cf}+E_{pgf}=E_{ci}+E_{pgi}.\end{align}$$
+
 # Energia potencial elástica
 
 **Notação:** $E_{pElast}$ ou $E_{pe}$
@@ -23,3 +31,14 @@ Para um corpo de massa $m$ que se desloca de $y_1$ para $y_2$ esta variação é
 
 **Energia mecânica:** $E_{m}=(E_{cf}+E_{pef})=(E_{ci}+E_{pei})$
 
+# Em comum:
+
+Se a única força a atuar for a gravítica ou a elástica as seguintes relações ainda podem ser utilizadas:
+	1. $W(F_{g})=\Delta E_{c}$ ;
+	2. $W(F_e)=\Delta E_{c}$ .
+
+Mesmo que estas não sejam as únicas a atuar, se as outras não realizarem trabalho temos que a energia mecânica ainda se conserva.
+
+# Aplicações em exercícios
+
+Os problemas que podem ser reso

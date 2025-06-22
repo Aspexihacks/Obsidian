@@ -131,10 +131,4 @@ Em muitos casos, o trabalho realizado por forças externas sobre o sistema não 
 Para forças conservativas, podemos definir a *função energia potencial* associada a essas forças:$$\Delta \mathcal{U} = \mathcal{U}_{2}-\mathcal{U}_{1}=-\int_{1}^{2}\vec{F}\cdot d \vec{r}.$$
 Já vimos [[duas forças de interação que são fontes de  energia potencial]].
 
-Como a resultante das forças aplicadas a um corpo, $\vec{R}$, verifica sempre que $W(R)=\Delta E_{c}$ e, que para a força da gravidade $\vec{F}_{g}$, tem-se $W(F_g)=-\Delta E_{pg}$.
 
-Desta forma, se a força resultante for igual à força gravítica, tem-se que $\Delta E_{c}=-\Delta E_{pg}$.
-
-**Energia mecânica:** Define-se por$$E_{m}=E_{c}+E_{pg},$$além disso, temos que a variação da energia mecânica é nula.
-
-Reescrevendo então a equação $$\begin{align}\Delta E_{c}+\Delta E_{pg}=0&\iff E_{cf}-E_{ci}+E_{pgf}-E_{pgi}=0\iff\\ \\\ &\iff E_{cf}+E_{pgf}=E_{ci}+E_{pgi}.\end{align}$$
