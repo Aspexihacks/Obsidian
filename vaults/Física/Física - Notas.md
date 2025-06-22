@@ -111,4 +111,5 @@ O trabalho corresponde então a uma *transferência de energia* para o sistema, 
 A *energia cinética* é por definição dada por $E_{c}\equiv K=\frac{1}{2}mv^{2}(Joule)$.
 
 Há uma importante relação entre a energia cinética e o trabalho:
-	**Teorema da Energia Cinética:** 
+	**Teorema da Energia Cinética:** O trabalho realizado durante um certo intervalo de tempo pela resultante das forças é igual à variação da sua energia cinética no mesmo intervalo de tempo.
+		$\mathcal{Prova:}$ 
