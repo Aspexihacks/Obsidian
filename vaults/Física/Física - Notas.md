@@ -99,3 +99,8 @@ O tipo de movimento descrito acima segue uma onda sinusoidal em função do temp
 
 A nossa questão inicial será então: "Se tivermos uma força não constante, como definimos o trabalho?"
 
+Para definir o trabalho realizado por uma força não constante ao longo de uma distância, devemos representar $F(x)$, uma curva, e fazer partições do domínio, distância a percorrer.
+
+Isto já foi visto em [[Análise IV (Integral Curvílineo)]], dando uma maneira rigorosa de provada de achar o trabalho dada uma força não constante.
+
+O trabalho corresponde então a uma *transferência de energia* para o sistema, isto é, 
