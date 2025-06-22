@@ -109,4 +109,8 @@ An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is
 
 # Equivalent Basis
 
-**Definition:** Two bases of $X$ are $\{u_{n}\}$ and $\{v_{n}\}$ for which $\sum^\infty_{1}a_{n}u_{n}$ converges if and only if $$
+**Definition:** Two bases of $X$ $\{u_{n}\}$ and $\{v_{n}\}$ for which $\sum^\infty_{1}a_{n}u_{n}$ converges if and only if $\sum^\infty_{1}a_{n}v_{n}$ converges are said to be *equivalent bases*.
+
+**Theorem:** Let $X$ be an infinite dimensional Banach space with a Schauder basis. Then there are uncountably many mutually non-equivalent normalized bases in $X$.
+
+Even with the given theorem above, bases do have some stability. If each basis vector is perturbed by a 
