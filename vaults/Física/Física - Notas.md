@@ -1,7 +1,7 @@
 **Partícula** - Objeto cuja posição pode ser descrita por um único ponto(tudo o que possa ignorar estrutura interna)
 
 **Deslocamento**($SI=metro$) - Grandeza vetorial que nos dá a variação de posição.
-	A $dim(\cdot)=1$ o deslocameto pode ser descrito por um escalar:$$\Delta x=x_{f}-x_{i}.$$
+	A $dim(\cdot)=1$ o deslocamento pode ser descrito por um escalar:$$\Delta x=x_{f}-x_{i}.$$
 	Podemos, na mesma dimensão, descrever a posição e deslocamento por vetores:
 	![[Pasted image 20250619132826.png]]
 
@@ -117,3 +117,5 @@ W_{AB}&=\int_{A}^{B}\vec{F}_{res}\cdot d \vec{r} = \int_{A}^{B} F_{res,t}ds=\\&=
 \end{align}$$
 	**Formulação alternativa:** Quando se realiza trabalho sobre um sistema e a única alteração que se observa nesse sistema é a sua velocidade, o trabalho total realizado sobre o sistema é então dado pela variação de energia cinética.
 
+**Potência:** Trabalho realizado por unidade de tempo, sendo a *potência média* dada por $$P_{med}=\frac{W}{\Delta t}.$$
+A *potência instantânea (Watt ou J/s)*, tal como a velocidade e aceleração instantânea é dada pela derivada do trabalho, isto é, $$P= \frac{dW}{dt}=\vec{F}\cdot \vec{v}\ \ \ .$$
