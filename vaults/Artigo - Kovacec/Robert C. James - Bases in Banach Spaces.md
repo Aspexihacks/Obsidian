@@ -109,3 +109,4 @@ An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is
 
 # Equivalent Basis
 
+**Definition:** Two bases of $X$ are $\{u_{n}\}$ and $\{v_{n}\}$ for which $\sum^\infty_{1}a_{n}u_{n}$ converges if and only if $$
