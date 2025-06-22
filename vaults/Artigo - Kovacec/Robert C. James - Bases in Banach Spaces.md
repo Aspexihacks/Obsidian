@@ -105,4 +105,7 @@ This way, we can now rewrite the theorem in terms of projections:
 
 This theorem is used to prove that a candidate for a basis is an actual basis.
 
-An example of its usage is proving that, $\{\phi_{i}\}$, the *Haar System*  is a basis of the Banach space of all Lebesgue-measurable real-valued functions on $[0,1]$, $\mathcal{L}_{p}[0,1]$.
+An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1] ]], $\mathcal{L}_{p}[0,1]$.
+
+# Equivalent Basis
+
