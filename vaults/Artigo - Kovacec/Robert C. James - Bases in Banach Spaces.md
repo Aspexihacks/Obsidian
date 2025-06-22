@@ -14,9 +14,9 @@ Any orthogonal sequence in a Hilbert Space $H$ and $x$ is any member of $H$, the
 This space is the Banach space of all sequences that are convergent to zero. A basis for this space is $\{e_i\}$ where $e_{i}$ consists of zeros except for 1 position, that position being $i$.
 $x \in c_{0} \implies x=(x_{1},x_{2},x_{3},\dots)$ which tells us that the only sequence for which $\lim_{ n \to \infty }\big\lvert  \big\rvert  x-\sum_{1}^\infty x_{i}e_{i}\big\lvert  \big\rvert =0$ is $x$ itself.
 For this sequence of scalars $x$, $$\left\lvert  \left\lvert  x-\sum^n_{i=1}x_{i}e_{i} \right\rvert \right\rvert=\max\{\lvert x_{i} \rvert :i>n\}. $$
-#### The space $\mathcal{L}_p$ 
+#### The space $\mathcal{l}_p$ 
 
-An important class of Banach spaces is given by the spaces $\mathcal{L}_p$ for $1 \leqslant p<\infty$, where $\mathcal{L}_p$ is the space of all sequences $x=\left\{x_i\right\}$ for which $\Sigma_1^{\infty}\left|x_i\right|^p$ is convergent and $\|x\|$ is $\left[\Sigma_1^{\infty}\left|x_i\right|^p\right]^{1 / p}$. With $\left\{e_n\right\}$ the same as for $c_0$,
+An important class of Banach spaces is given by the spaces $l_{p}$ for $1 \leqslant p<\infty$, where $l_p$ is the space of all sequences $x=\left\{x_i\right\}$ for which $\Sigma_1^{\infty}\left|x_i\right|^p$ is convergent and $\|x\|$ is $\left[\Sigma_1^{\infty}\left|x_i\right|^p\right]^{1 / p}$. With $\left\{e_n\right\}$ the same as for $c_0$,
 
 $$
 \left\|x-\sum_{i=1}^n x_i e_i\right\|=\left[\sum_{i=n+1}^{\infty}\left|x_i\right|^p\right]^{1 / p} \text { so } \lim _{n \rightarrow \infty}\left\|x-\sum_{i=1}^n x_i e_i\right\|=0 .
@@ -102,3 +102,7 @@ $(1)$ implies $K||x||\geq||P_n(x)||$, so $P_n$ is continuous and $||P_{n}||\leq 
 This way, we can now rewrite the theorem in terms of projections:
 
 **Theorem:(Rewritten)** If the linear span of $\left\{e_n\right\}$ is dense in $X$ and no $e_n$ is 0 , then $\left\{e_n\right\}$ is a basis for $X$ if and only if there is a sequence $\{P_{n}\}$ of uniformly bounded projections on $X$ for which the range of $P_n$ is $lin\{e_{i}:i\leq n\}$ and $P_{n}(e_{i})=0$ if $i>n$.
+
+This theorem is used to prove that a candidate for a basis is an actual basis.
+
+An example of its usage is proving that, $\{\phi_{i}\}$, the *Haar System*  is a basis of the Banach space of all Lebesgue-measurable real-valued functions on $[0,1]$, $\mathcal{L}_{p}[0,1]$.
