@@ -135,10 +135,4 @@ Já vimos [[duas forças de interação que são fontes de  energia potencial]].
 **Princípio da conservação da energia:** A energia pode ser convertida de uma forma para a outra ou transmitida de uma região para outra, mas não pode ser criada ou destruída.
 
 Geralmente, a energia total de um sistema é a soma de todas as energias nele, sejam elas mecânicas, térmicas, química, etc. $$E_{sistema}=E_{m}+E_{q}+E_{t}+\dots\ .$$
-# FUI
-# BUSCAR
-# COMIDA
-
-## Já volto
-
-
+Se a única fonte de energia transferida for 
