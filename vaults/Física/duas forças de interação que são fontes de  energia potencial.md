@@ -19,4 +19,7 @@ Para um corpo de massa $m$ que se desloca de $y_1$ para $y_2$ esta variação é
 
 **Cálculo:** $E_{pe}=\frac{1}{2}kx^{2}$
 
-**Trabalho resultante de forças elásticas:** $$
+**Trabalho resultante de forças elásticas:** $W(F_{e})=-\Delta E_{pe}$
+
+**Energia mecânica:** $E_{m}=(E_{cf}+E_{pef})=(E_{ci}+E_{pei})$
+
