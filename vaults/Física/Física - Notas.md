@@ -131,4 +131,6 @@ Em muitos casos, o trabalho realizado por forças externas sobre o sistema não 
 Para forças conservativas, podemos definir a *função energia potencial* associada a essas forças:$$\Delta \mathcal{U} = \mathcal{U}_{2}-\mathcal{U}_{1}=-\int_{1}^{2}\vec{F}\cdot d \vec{r}.$$
 Já vimos [[duas forças de interação que são fontes de  energia potencial]].
 
-Como a resultante das forças aplicadas a um corpo
+Como a resultante das forças aplicadas a um corpo, $\vec{R}$, verifica sempre que $W(R)=\Delta E_{c}$ e, que para a força da gravidade $\vec{F}_{g}$, tem-se $W(F_g)=-\Delta E_{pg}$.
+
+Desta forma, se a força resultante foir 
