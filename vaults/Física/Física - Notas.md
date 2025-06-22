@@ -136,3 +136,5 @@ Como a resultante das forças aplicadas a um corpo, $\vec{R}$, verifica sempre q
 Desta forma, se a força resultante for igual à força gravítica, tem-se que $\Delta E_{c}=-\Delta E_{pg}$.
 
 **Energia mecânica:** Define-se por$$E_{m}=E_{c}+E_{pg},$$além disso, temos que a variação da energia mecânica é nula.
+
+Reescrevendo então a equação $$\begin{align}\Delta E_{c}+\Delta E_{pg}=0&\iff E_{cf}-E_{ci}+E_{pgf}-E_{pgi}=0\iff\\ \\\ &\iff E_{cf}+E_{pgf}=E_{ci}+E_{pgi}.\end{align}$$
