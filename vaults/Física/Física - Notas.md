@@ -112,4 +112,6 @@ A *energia cinética* é por definição dada por $E_{c}\equiv K=\frac{1}{2}mv^{
 
 Há uma importante relação entre a energia cinética e o trabalho:
 	**Teorema da Energia Cinética:** O trabalho realizado durante um certo intervalo de tempo pela resultante das forças é igual à variação da sua energia cinética no mesmo intervalo de tempo.
-		$\mathcal{Prova:}$ 
+		$\mathcal{Prova:}$ $$\begin{align}
+W_{AB}&=\int_{A}^{B}\vec{F}_{res}\cdot d \vec{r} = \int_{A}^{B} F_{res,t}ds=\\&=\int_{A}^{B}ma_{t}ds=\int_{A}^{B}m \frac{dv}{ds}ds=\\&=\int_{A}^{B}mv\ dv=\frac{1}{2}mv^{2}_{B}-\frac{1}{2}mv^{2}_{A}=\Delta K
+\end{align}$$
