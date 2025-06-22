@@ -128,4 +128,4 @@ Em muitos casos, o trabalho realizado por forças externas sobre o sistema não 
 	Algumas destas, como o atrito e resistência num fluido, produzem a dissipação de energia mecânica, estas são chamadas *forças dissipativas*.
 	Existem também algumas que produzem um aumento de energia, como explosões, etc.
 
-Para forças conservativas, podemos definir a *função energia potencial* associada a essas forças:$$\Delta \mathcal{U} =$$
+Para forças conservativas, podemos definir a *função energia potencial* associada a essas forças:$$\Delta \mathcal{U} = \mathcal{U}_{2}-\mathcal{U}_{1}=-\int_{1}^{2}\vec{F}\cdot d \vec{r}.$$
