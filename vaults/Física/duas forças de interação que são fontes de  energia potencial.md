@@ -17,3 +17,5 @@ Para um corpo de massa $m$ que se desloca de $y_1$ para $y_2$ esta variação é
 
 **Notação:** $E_{pElast}$
 
+**Cálculo:** $E_{pe}=\frac{1}{2}kx^{2}$
+
