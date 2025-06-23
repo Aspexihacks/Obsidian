@@ -12,4 +12,6 @@ searchTarget: Study
 folder: vaults/vaults/Tracker
 datasetName: Study Tracker
 line: 
+	title: Studying Time
+	yAxisLabel: Time
 ```
