@@ -4,3 +4,5 @@ tags:
   - Daily
 Study:
 ---
+Daily Journal: 
+
