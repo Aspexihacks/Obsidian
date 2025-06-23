@@ -130,5 +130,6 @@ and also $\lvert \lvert I-T \rvert \rvert \leq \theta <1 \implies lin\{v_{i}\}$ 
 
 Defining$$\begin{cases}
 \sigma_{n}=\sum_{1}^{n}a_{i}u_{i} \\
-\sigma_{n+1}=\sum^{n}_{1}
-\end{cases}$$
+\sigma_{n+1}=\sum^{n+p}_{1}a_{i}u_{i}
+\end{cases}$$we get that $$||T\sigma_{n}||\leq (1+\theta) ||\sigma_{n}||\leq (1+\theta)K||\sigma_{n+1}||\leq \frac{{1+\theta}}{1-\theta}K||T\sigma_{n+1}||.$$
+Hence
