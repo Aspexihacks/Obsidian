@@ -78,7 +78,7 @@ Since $\{t_i\}$ is dense in $[0,1]$ and $h$ is uniformly continuous, $\sum ^n_{1
 
 If $\{e_{n}\}$ is a basis for $X$, it clearly needs to dense in $X$. *Not being sufficient, even if we suppose the linear independence. An example of this is the sequence of polynomials $\{t^{n-1}:n\geq1\}$ which is not a basis for $C[0,1]$.* 
 
-## A useful inequality
+## An useful inequality
 
 Suppose the linear span of $\{e_n\}$ is dense in $X$, no $e_{n}$ is 0 and there is a positive $K$ such that, for all $n,p \in \mathbb{N}$ and scalars $\{a_{i}\}$,$$K\left\lvert  \left\lvert  \sum^{n+p}_{i=1}  \right\rvert   \right\rvert \geq \left\lvert  \left\lvert  \sum ^{n}_{i=1}a_{i}e_{i}  \right\rvert   \right\rvert. $$
 For each $k$, let $x^{*}_{k}$ be a linear functional defined on $lin\{e_{n}\}$ by letting $\left( e^{*}_{k},\sum^{n}_{1}a_{i}e_{i} \right)$ be $a_k$ in $n\geq k$ and 0 otherwise. Then each ${e^*_k}$ is continuous. In fact, for any $x=\sum^{\infty}_{1}x_{i}e_{i}$ with finitely many nonzero terms, $$
@@ -116,4 +116,4 @@ An example of its usage is proving that, $\{\phi_{i}\}$, [[the Haar System is a 
 Even with the given theorem above, bases do have some stability. If each basis vector is perturbed by a sufficiently small amount, it remains a basis and is equivalent to the original basis.
 
 **Theorem:** If $\{u_{n}\}$ is a normalized basis of $X$ and $\{u^*_n\}$ is the corresponding sequence of coefficient functionals, then $\{v_n\}$ is a basis for $X$ and is equivalent to $\{u_{n}\}$ if $$\sum^\infty_{i=1}||u_{i}-v_{i}||\ ||u_{i}^*||<1.$$
-$Proof:$ Let $K$ be the basis constant of $\{u_n\}$, a normalized basis of $X$, and $\{u^{*}_{n}\}$ the coefficient functionals. Putting $$\theta=\sum^{\infty}_{1}\lvert \lvert u_{i}-v_{i} \rvert  \rvert \ \lvert \lvert u_{i}^* \rvert  \rvert$$and setting the linear mapping $$\begin{align}T:X&\to span\{v_{i}\}\\\sum^{\infty}_{1}x_{i}u_{i}&\mapsto \sum^{\infty}_{1}x_{i}v_{i} \end{align}$$
+$Proof:$ Let $K$ be the basis constant of $\{u_n\}$, a normalized basis of $X$, and $\{u^{*}_{n}\}$ the coefficient functionals. Putting $$\theta=\sum^{\infty}_{1}\lvert \lvert u_{i}-v_{i} \rvert  \rvert \ \lvert \lvert u_{i}^* \rvert  \rvert$$and setting the linear mapping $$\begin{align}T:X&\to span\{v_{i}\}\\\sum^{\infty}_{1}x_{i}u_{i}&\mapsto \sum^{\infty}_{1}x_{i}v_{i} \end{align}$$we can now use the inequality we proved earlier ([[Robert C. James - Bases in Banach Spaces#An useful inequality|An useful inequality]]) 
