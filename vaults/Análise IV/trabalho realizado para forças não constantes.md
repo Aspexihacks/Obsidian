@@ -15,4 +15,4 @@ Desta maneira, o vetor de deslocamento será $||A_iA_{i+1}||\vec{T}(t_i^*)$, sen
 Assim, $$\sum^{n-1}_0(\vec{F}(\phi(t_i^*),\psi(t_i^*))\ |\ \vec{T}(t_i^*))||A_iA_{i+1}||$$
 é uma boa aproximação do trabalho ao longo do arco.
 
-Se definirmos o trabalho em si como a redução (em limite) do raio da partição para zero, obtemos que o trabalho é dado pelo [[integral curvilíneo dxdy do arco]].
+Se definirmos o trabalho em si como a redução (em limite) do raio da partição para zero, obtemos que o trabalho é dado pelo integral curvilíneo dxdy do arco.
