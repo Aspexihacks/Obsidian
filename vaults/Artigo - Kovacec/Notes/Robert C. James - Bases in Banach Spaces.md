@@ -140,4 +140,5 @@ Since every $x \in X$ has a unique representation in the base $\{u_{n}\}$ and so
 
 One can now figure out that $C[0,1]$ also as a basis of polynomials, because of this last theorem, but as said before it is not any sequence of polynomials but one which has a much rapid growth in the degrees of the polynomials.
 
-# 
+# Bases and Duality
+
