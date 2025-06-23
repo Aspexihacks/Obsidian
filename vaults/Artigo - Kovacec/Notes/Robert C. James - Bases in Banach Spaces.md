@@ -121,7 +121,7 @@ This gives us that$$\lvert x_{n} \rvert =\lvert (u_{n}^{*},x) \rvert \leq \lvert
 We can see that $\big|\big|\sum^{\infty}_{1}x_{i}(u_{i}-v_{i})\big|\big|=\big|\big|x-Tx\big|\big|$, and so, by $(1)$, $\big|\big|x-Tx\big|\big|=\big|\big|\sum^{\infty}_{1}x_{i}(u_{i}-v_{i})\big|\big|\leq ||x|| \sum^{\infty}_{1}||u_{i}-v_{i}||\ ||u_{i}^{*}||=\theta \cdot||x|| <||x||,$ and just like that we get that $\sum^{\infty}_{1}x_{i}v_{i}$ converges.
 We also have that $$\begin{align}
 \lvert \lvert x \rvert  \rvert -\lvert \lvert x-Tx \rvert  \rvert &\leq \lvert \lvert Tx \rvert  \rvert \leq \lvert \lvert x \rvert  \rvert + \lvert \lvert x-Tx \rvert  \rvert\implies\\&\implies (1-\theta)\lvert \lvert x \rvert  \rvert \leq \lvert \lvert Tx \rvert  \rvert (1+\theta)\lvert \lvert x \rvert  \rvert .
-\end{align}$$
+\end{align}\tag{2}$$
 Hence, $T$ is an *isomorphism*.
 
 $Tu_{i}=v_{i}\implies v_{i}\not=0$
@@ -131,5 +131,5 @@ and also $\lvert \lvert I-T \rvert \rvert \leq \theta <1 \implies lin\{v_{i}\}$ 
 Defining$$\begin{cases}
 \sigma_{n}=\sum_{1}^{n}a_{i}u_{i} \\
 \sigma_{n+1}=\sum^{n+p}_{1}a_{i}u_{i}
-\end{cases}$$we get that $$||T\sigma_{n}||\leq (1+\theta) ||\sigma_{n}||\leq (1+\theta)K||\sigma_{n+1}||\leq \frac{{1+\theta}}{1-\theta}K||T\sigma_{n+1}||.$$
-Hence
+\end{cases}$$we get, by $(2)$, that $$||T\sigma_{n}||\leq (1+\theta) ||\sigma_{n}||\leq (1+\theta)K||\sigma_{n+1}||\leq \frac{{1+\theta}}{1-\theta}K||T\sigma_{n+1}||.$$
+Hence $K'$=$\frac{1+\theta}{1-\theta}$
