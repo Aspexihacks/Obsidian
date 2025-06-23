@@ -1,3 +1,5 @@
+#Outros
+
 **Partícula** - Objeto cuja posição pode ser descrita por um único ponto(tudo o que possa ignorar estrutura interna)
 
 **Deslocamento**($SI=metro$) - Grandeza vetorial que nos dá a variação de posição.

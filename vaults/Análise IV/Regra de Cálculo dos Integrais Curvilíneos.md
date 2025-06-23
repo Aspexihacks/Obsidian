@@ -1,3 +1,5 @@
+#Análise 
+
 Seja  $P,Q: D\subseteq \mathbb{R}^2\longrightarrow \mathbb{R}$ onde $\overset{\LARGE \frown}{\small{AB}}$ está em $D$ e é definido pelas equações paramétricas$$\begin{cases}x=\phi(t)\\y=\psi(t)\end{cases}\quad,t\in[t_A,t_B].$$
 Consideremos que $\phi,\psi\in C^1[t_A,t_B]$.
 

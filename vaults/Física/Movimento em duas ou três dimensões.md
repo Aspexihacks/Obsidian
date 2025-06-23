@@ -1,4 +1,4 @@
-
+#Outros 
 
 **Vetor posição:** Vetor que vem da origem e chega até à posição da partícula ou objeto a analisar.$$\vec{r}=(x,y,z)$$
 **Vetor deslocamento:** Vetor representante da variação de posição num intervalo de tempo $[t_{1},t_{2}]$$$\Delta \vec{r}=\vec{r_{2}}-\vec{r_{1}},$$onde $\vec{r_{i}}=r(t_{i})$.

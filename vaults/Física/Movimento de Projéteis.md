@@ -1,3 +1,4 @@
+#Outros 
 
 Podemos deduzir as formas de cálculo das equações que nos dão as posições dos projéteis em função do tempo.
 

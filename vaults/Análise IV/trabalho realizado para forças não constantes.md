@@ -1,3 +1,4 @@
+#Análise 
 
 Suponhamos que a força é não constante e que a partícula se move ao longo de um arco de curva $\overset{\LARGE \frown}{\small{AB}}$, retificável, em $\mathbb{R}^2$ de equações 
 $$\begin{cases}x=\phi(t)\\y=\psi(t)\end{cases}\quad,t\in[t_A,t_B],$$
