@@ -2,3 +2,4 @@ $\left( 1- \left( \frac{\theta}{x+\theta} \right)^{\alpha} \right)'=\frac{\alpha
 <\infty,\quad\alpha>0\\ \\
 =\infty,\quad\alpha\leq0
 \end{cases}\quad.$$
+![[Pasted image 20250623012106.png]]
