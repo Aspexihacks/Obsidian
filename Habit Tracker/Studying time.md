@@ -18,10 +18,10 @@ line:
 
 ```tracker
 searchType: frontmatter
-searchTarget: Emotional
+searchTarget: Emotional(0-10)
 folder: vaults/vaults/Tracker
-datasetName: Emotion Tracker
+datasetName: Study Tracker
 line: 
-	title: Emotional Levels
-	yAxisLabel: Positive Levels
+	title: Mood Tracker
+	yAxisLabel: Emotional Levels
 ```
