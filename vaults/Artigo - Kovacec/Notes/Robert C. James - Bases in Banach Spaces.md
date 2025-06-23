@@ -122,3 +122,13 @@ We can see that $\big|\big|\sum^{\infty}_{1}x_{i}(u_{i}-v_{i})\big|\big|=\big|\b
 We also have that $$\begin{align}
 \lvert \lvert x \rvert  \rvert -\lvert \lvert x-Tx \rvert  \rvert &\leq \lvert \lvert Tx \rvert  \rvert \leq \lvert \lvert x \rvert  \rvert + \lvert \lvert x-Tx \rvert  \rvert\implies\\&\implies (1-\theta)\lvert \lvert x \rvert  \rvert \leq \lvert \lvert Tx \rvert  \rvert (1+\theta)\lvert \lvert x \rvert  \rvert .
 \end{align}$$
+Hence, $T$ is an *isomorphism*.
+
+$Tu_{i}=v_{i}\implies v_{i}\not=0$
+
+and also $\lvert \lvert I-T \rvert \rvert \leq \theta <1 \implies lin\{v_{i}\}$ is dense in $X$.
+
+Defining$$\begin{cases}
+\sigma_{n}=\sum_{1}^{n}a_{i}u_{i} \\
+\sigma_{n+1}=\sum^{n}_{1}
+\end{cases}$$
