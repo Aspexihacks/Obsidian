@@ -132,4 +132,6 @@ Defining$$\begin{cases}
 \sigma_{n}=\sum_{1}^{n}a_{i}u_{i} \\
 \sigma_{n+1}=\sum^{n+p}_{1}a_{i}u_{i}
 \end{cases}$$we get, by $(2)$, that $$||T\sigma_{n}||\leq (1+\theta) ||\sigma_{n}||\leq (1+\theta)K||\sigma_{n+1}||\leq \frac{{1+\theta}}{1-\theta}K||T\sigma_{n+1}||.$$
-Hence $K'$=$\frac{1+\theta}{1-\theta}$
+Hence $K'$=$\frac{1+\theta}{1-\theta}K$ is the basis constant of $\{v_n\}$ as a basis for $X$.
+
+Since every $x \in X$ has a unique representation in the base $\{u_{n}\}$ and 
