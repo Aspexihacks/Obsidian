@@ -136,4 +136,8 @@ Hence $K'$=$\frac{1+\theta}{1-\theta}K$ is the basis constant of $\{v_n\}$ as a 
 
 Since every $x \in X$ has a unique representation in the base $\{u_{n}\}$ and so ,by means of the isomorphism $T$, $Tx$ also has a unique representation in the base $\{v_{n}\}$ and since $T$ has range $X$, we get that every $x \in X$ also gets an unique representation in the form $\sum^{\infty}_{n}x_{i}v_{i}.\square$ 
 
-## 
+## An example
+
+One can now figure out that $C[0,1]$ also as a basis of polynomials, because of this last theorem, but as said before it is not any sequence of polynomials but one which has a much rapid growth in the degrees of the polynomials.
+
+# 
