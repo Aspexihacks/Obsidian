@@ -11,12 +11,14 @@
             "id": "5ccb5862e1bb0e93",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "vaults/Artigo - Kovacec/Bases in Banach Spaces (Robert C. James) (Z-Library).pdf"
+                "file": "vaults/Artigo - Kovacec/Notes/Robert C. James - Bases in Banach Spaces.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Bases in Banach Spaces (Robert C. James) (Z-Library)"
+              "icon": "lucide-file",
+              "title": "Robert C. James - Bases in Banach Spaces"
             }
           }
         ]
@@ -140,7 +142,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -151,6 +152,9 @@
   },
   "active": "5ccb5862e1bb0e93",
   "lastOpenFiles": [
+    "vaults/Física/Movimento de Projéteis.md",
+    "vaults/Física/Movimento em duas ou três dimensões.md",
+    "vaults/Física/Física - Notas.md",
     "vaults/Artigo - Kovacec/the Haar System is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1].md",
     "message.txt",
     "vaults/Física/Prática/6-Prática - Elasticidade Folha 5.pdf",
@@ -173,15 +177,12 @@
     "vaults/Images/Pasted image 20250616161608.png",
     "vaults/Images/Pasted image 20250619132826.png",
     "vaults/Física/aplicações para as leis de Newton.md",
-    "vaults/Física/Movimento de Projéteis.md",
     "vaults/Física/Lei da Ação e Reação.md",
     "vaults/Física/Lei da Gravitação Universal.md",
-    "vaults/Física/Movimento em duas ou três dimensões.md",
     "vaults/Física/Lei Fundamental da Dinâmica.md",
     "vaults/Física/Anki.md",
     "vaults/Física/duas forças de interação que são fontes de  energia potencial.md",
     "vaults/Física/Lei da Inércia.md",
-    "vaults/Física/Física - Notas.md",
     "vaults/Artigo - Kovacec/Robert C. James - Bases in Banach Spaces.md",
     "vaults/Análise IV/trabalho realizado para forças não constantes.md",
     "vaults/Análise IV/integral curvilíneo de uma função escalar.md",
