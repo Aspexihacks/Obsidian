@@ -134,4 +134,6 @@ Defining$$\begin{cases}
 \end{cases}$$we get, by $(2)$, that $$||T\sigma_{n}||\leq (1+\theta) ||\sigma_{n}||\leq (1+\theta)K||\sigma_{n+1}||\leq \frac{{1+\theta}}{1-\theta}K||T\sigma_{n+1}||.$$
 Hence $K'$=$\frac{1+\theta}{1-\theta}K$ is the basis constant of $\{v_n\}$ as a basis for $X$.
 
-Since every $x \in X$ has a unique representation in the base $\{u_{n}\}$ and so ,by means of the isomorphism $T$, $Tx$ also has a unique representation in the base $\{v_{n}\}$ and since $T$ has range $X$, we get that every $x \in X$ also
+Since every $x \in X$ has a unique representation in the base $\{u_{n}\}$ and so ,by means of the isomorphism $T$, $Tx$ also has a unique representation in the base $\{v_{n}\}$ and since $T$ has range $X$, we get that every $x \in X$ also gets an unique representation in the form $\sum^{\infty}_{n}x_{i}v_{i}.\square$ 
+
+## 
