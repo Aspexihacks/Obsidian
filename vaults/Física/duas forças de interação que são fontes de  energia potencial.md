@@ -9,7 +9,7 @@ Geralmente usa-se de referência a superfície da Terra ($y_0=0$) obtendo$$E_{pg
 
 ## Trabalho realizado pela força gravítica
 
-É dado pela expressão$$E(F_{g})=F_{g}\Delta y=-mg(y_{2}-y_{1}),$$onde o objeto onde a força realiza trabalho se desloca da altura $y_1$ para $y_2$, onde $y_{2}>y_{1}$.
+É dado pela expressão$$W(F_{g})=F_{g}\Delta y=-mg(y_{2}-y_{1}),$$onde o objeto onde a força realiza trabalho se desloca da altura $y_1$ para $y_2$, onde $y_{2}>y_{1}$.
 	Neste caso, vemos que o trabalho é negativo, pois  a força e o deslocamento têm sentidos opostos.
 
 ## Variação da energia potencial gravítica
