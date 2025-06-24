@@ -6,6 +6,8 @@ datasetName: Study Tracker
 month: 
 ```
 
+
+
 ```tracker
 searchType: frontmatter
 searchTarget: Study
@@ -15,6 +17,8 @@ line:
 	title: Studying Time
 	yAxisLabel: Time
 ```
+
+
 
 ```tracker
 searchType: frontmatter
