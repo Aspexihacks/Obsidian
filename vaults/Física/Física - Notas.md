@@ -142,4 +142,6 @@ Se a única fonte de energia transferida for a realização de trabalho sobre o 
 	Também pode ser chamada de *momento linear*.
 	Usando esta escrita, vemos a forma original da *segunda lei de Newton*:$$\vec{F}_{res}=\frac{d}{dt}(m \vec{v})=\frac{d \vec{p}}{dt}.$$
 
-O momento linear como o nome indica, pode ser tomado como algo algebricamente linear, isto é, se $\vec{P}$ for o momento linear de um sistema de $N$ partículas, então com cada partícula tendo momento $\vec{p}_{i},\ i=1,2,\dots,N$, $\vec{P}$ pode se escrito como $$\sum$$
+O momento **linear** como o nome indica, pode ser tomado como algo **algebricamente linear**, isto é, se $\vec{P}$ for o momento linear de um sistema de $N$ partículas, então com cada partícula tendo momento $\vec{p}_{i},\ i=1,2,\dots,N$, $\vec{P}$ pode se escrito como $$\sum ^{N}_{1} \vec{p}_{i}=\sum^{N}_{1}m_{i} \vec{v}_{i}.$$
+
+Como as forças entre partículas do sistema se anulam duas a duas,$$\sum_{i}\vec{F}_{i}=\sum_{i}\vec{F}_{int,i}+\sum_{i}\vec{F}_{ext,i}=\sum_{i} \vec{F}_{ext,i}=\vec{F}_{ext,res}$$
