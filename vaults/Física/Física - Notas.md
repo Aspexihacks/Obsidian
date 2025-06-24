@@ -155,4 +155,6 @@ obtendo então a segunda lei de Newton para um sistema de partículas:$$\vec{F}_
 
 Suponhamos que dois corpos entram em contacto durante um intervalo de tempo $\Delta t$. Então, eles exercem forças iguais e opostas um sobre o outro. Ao produto entre a força exercida durante o intervalo de tempo e $\Delta t$, chama-se **Impulso** ($I=F\Delta t$).
 
-Geralmente
+Geralmente, como as forças não são constantes, usamos para o cálculo do impulso o valor médio:$$I=\bar{F}\Delta t$$
+Isto dá uma "aproximação" (muito mal feita) da área do gráfico da força em aplicação:![[Pasted image 20250624181659.png]]
+Logo, v
