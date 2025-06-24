@@ -138,4 +138,7 @@ Já vimos [[duas forças de interação que são fontes de  energia potencial]].
 
 Geralmente, a energia total de um sistema é a soma de todas as energias nele, sejam elas mecânicas, térmicas, química, etc. $$E_{sistema}=E_{m}+E_{q}+E_{t}+\dots\ .$$
 Se a única fonte de energia transferida for a realização de trabalho sobre o sistema a partir do exterior, então a lei da conservação de energia fica: $$W_{ext}=\Delta E_{sistema}.$$
-Quantidade de movimen
+**Quantidade de movimento:** Grandeza vetorial $\vec{p}$ definida por$$\vec{p}=m \vec{v}.$$
+	Também pode ser chamada de *momento linear*.
+	Usando esta escrita, vemos a forma original da segunda lei de ewton
+
