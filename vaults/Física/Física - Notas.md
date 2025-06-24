@@ -156,5 +156,8 @@ obtendo então a segunda lei de Newton para um sistema de partículas:$$\vec{F}_
 Suponhamos que dois corpos entram em contacto durante um intervalo de tempo $\Delta t$. Então, eles exercem forças iguais e opostas um sobre o outro. Ao produto entre a força exercida durante o intervalo de tempo e $\Delta t$, chama-se **Impulso** ($I=F\Delta t$).
 
 Geralmente, como as forças não são constantes, usamos para o cálculo do impulso o valor médio:$$I=\bar{F}\Delta t$$
-Isto dá uma "aproximação" (muito mal feita) da área do gráfico da força em aplicação:![[Pasted image 20250624181659.png]]
-Logo, v
+Isto dá uma "aproximação" retangular (muito mal feita) da área do gráfico da força em aplicação:![[Pasted image 20250624181659.png]]
+Logo, vemos que, se quisermos ter o impulso de uma força não constante, devemos usar um integral para achar a área abaixo do gráfico. Isto é, $$\vec{I}=\int^{t_{1}}_{t_{0}}\vec{F}dt$$
+O impulso de uma força pode ser usado como uma "medida" do efeito da força. Exemplo:
+	É claro que uma explosão de uma bomba faz um efeito mais intenso em milissegundos do que um nadador a empurrar a parede numa partida de costas durante um ou dois segundos.
+
