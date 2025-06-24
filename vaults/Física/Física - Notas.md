@@ -144,4 +144,10 @@ Se a única fonte de energia transferida for a realização de trabalho sobre o 
 
 O momento **linear** como o nome indica, pode ser tomado como algo **algebricamente linear**, isto é, se $\vec{P}$ for o momento linear de um sistema de $N$ partículas, então com cada partícula tendo momento $\vec{p}_{i},\ i=1,2,\dots,N$, $\vec{P}$ pode se escrito como $$\sum ^{N}_{1} \vec{p}_{i}=\sum^{N}_{1}m_{i} \vec{v}_{i}.$$
 
-Como as forças entre partículas do sistema se anulam duas a duas,$$\sum_{i}\vec{F}_{i}=\sum_{i}\vec{F}_{int,i}+\sum_{i}\vec{F}_{ext,i}=\sum_{i} \vec{F}_{ext,i}=\vec{F}_{ext,res}$$
+Como as forças entre partículas do sistema se anulam duas a duas,$$\sum_{i}\vec{F}_{i}=\sum_{i}\vec{F}_{int,i}+\sum_{i}\vec{F}_{ext,i}=\sum_{i} \vec{F}_{ext,i}=\vec{F}_{ext,res}\quad$$
+obtendo então a segunda lei de Newton para um sistema de partículas:$$\vec{F}_{ext,res}=\frac{d \vec{P}}{dt}\iff \begin{cases}
+\sum F_{ext,x}=\frac{dP_{x}}{dt} \\
+\sum F_{ext,y}=\frac{dP_{y}}{dt} \\
+\sum F_{ext,z}=\frac{dP_{z}}{dt}
+\end{cases}$$
+**Lei da conservação do momento linear** 
