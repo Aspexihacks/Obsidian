@@ -153,3 +153,6 @@ obtendo então a segunda lei de Newton para um sistema de partículas:$$\vec{F}_
 **Lei da conservação do momento linear:** $$\vec{F}_{ext,res}=0\implies \frac{d \vec{P}}{dt}=0\implies \vec{P}=\sum_{i}m_{i}\vec{v}_{i}=M\vec{v}_{cm}$$onde $M$ é a massa do sistema e $\vec{v}_{cm}$ é a velocidade do centro de massa.
 	Mais sobre nestas [[Algumas coisas sobre a Lei da conservação do momento linear|notas]].
 
+Suponhamos que dois corpos entram em contacto durante um intervalo de tempo $\Delta t$. Então, eles exercem forças iguais e opostas um sobre o outro. Ao produto entre a força exercida durante o intervalo de tempo e $\Delta t$, chama-se **Impulso** ($I=F\Delta t$).
+
+Geralmente
