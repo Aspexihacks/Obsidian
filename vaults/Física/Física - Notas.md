@@ -168,4 +168,5 @@ De acordo com este teorema, o impulso resultante das forças extremas que atuam 
 **Força média:** É calculada num certo intervalo de tempo$$\vec{F}_{med}=\frac{1}{\Delta t}\int^{t_{f}}_{t_{i}}\vec{F}dt=\frac{\vec{I}}{\Delta t}$$
 
 **Força resultante média:** É calculada da seguinte forma$$\vec{I}_{res}=\vec{F}_{res,med}\Delta t=\Delta \vec{p}$$
-**Centro de massa:** 
+**Centro de massa:** Ponto geométrico onde se supõe estar concentrada toda a massa, além disso, onde se considera aplicada a resultante das forças gravíticas que atuam nesse sistema. 
+	A sua definição é então$
