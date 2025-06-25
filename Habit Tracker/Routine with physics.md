@@ -12,7 +12,6 @@
 - No writing — just quiet **internal rehearsal**.
 >$\quad\quad$ Anki shall be used.
 
-
 ---
 
 ## 📚 Morning Session (≈ 7:00 AM – 1:00 PM): Pure Mathematics Immersion
@@ -22,6 +21,7 @@
 - Work through proofs or problems **in your head**.
 - Read with the goal of **deep structural understanding**, not speed.
 - Optional writing only when an idea solidifies.
+>$\quad\quad$Books shall be used with the pocket notebook
 
 ---
 
@@ -31,6 +31,7 @@
 - Let both math and physics ideas **settle subconsciously**.
 - Avoid screens or noise.
 - Keep a small notepad nearby — insights may appear.
+>$\quad\quad$Take the pocket notebook
 
 ---
 
