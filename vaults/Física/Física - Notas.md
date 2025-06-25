@@ -204,4 +204,20 @@ Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
 Podemos ver que na *colisão de dois corpos a uma dimensão* (choque frontal), como a resultante das forças externas é nula, há conservação do momento linear: $$m_{1}v_{1f}+m_{2}v_{2f}=m_{1}v_{1i}+m_{2}v_{2i}$$
 Além disto, vamos precisar de uma [[Velocidades pós colisões|relação diferente]] para conseguirmos achar as velocidades dos corpos após a colisão, obviamente, vai ter de depender do tipo de colisão.
 
-Temos ainda **colisões oblíquas**, onde os corpos podem não bater de frente mas sim 
+Temos ainda **colisões oblíquas**, onde os corpos podem não bater de frente mas sim com uma certa angulação.![[Pasted image 20250625220033.png]]
+A distância $b$ entre os centros chama-se por parâmetro de impacto.
+
+Um caso interessante da colisão elástica oblíqua é quando os corpos têm a mesma massa e um deles se encontra inicialmente em repouso. A conservação do momento linear permite obter:
+
+$$
+m \vec{v}_{1 i}=m \vec{v}_{1 f}+m \vec{v}_{2 f} \Leftrightarrow \vec{v}_{1 i}=\vec{v}_{1 f}+\vec{v}_{2 f}
+$$
+
+A conservação da energia cinética permite obter:
+
+$$
+\frac{1}{2} m v_{1 i}^2=\frac{1}{2} m v_{1 f}^2+\frac{1}{2} m v_{2 f}^2 \quad \Leftrightarrow \quad v_{1 i}^2=v_{1 f}^2+v_{2 f}^2
+$$
+
+As três velocidades formam portanto um triângulo retângulo, ou seja, neste caso particular as velocidades finais são perpendiculares.
+
