@@ -182,4 +182,6 @@ Dado um corpo contínuo substitui-se o somatório por um integral, afinal, deixa
 Dados *corpos simétricos e homogéneos* o centro de massa estará sobre os *eixos de simetria*.
 
 Tal como já era comum, para obter a **velocidade do centro de massa**, basta derivar em função ao tempo as equações que nos definem as posições em relação ao mesmo. Obtemos que$$\vec{v}_{cm}=\frac{1}{M}\sum^N_{1}m_{i} \frac{d\vec{r}_{i}}{dt}=\frac{1}{M}\sum^N_{1}m_{i}\vec{v}_{i}$$
-Ou seja,$$M\vec{v}$$
+Ou seja,$$M\vec{v}_{cm}=\sum_{1}^Nm_{i}\vec{v}_{i}=\sum^N_{1}\vec{p}_{i}=\vec{p}_{cm},$$
+ficando com a quantidade de movimento de um sistema de partículas.
+
