@@ -192,4 +192,7 @@ Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
 **Energia cinética de um sistema de**  $N$ **partículas:** $$K=\sum_{1}^NK_{i}=\sum_{1}^N \frac{1}{2} m_{i}v_{i}^2$$
 > De forma geral, podemos representar a energia cinética de um sistema de partículas por$$\begin{align}K&=\sum_{i}K_{i}=\sum_{i} \frac{1}{2}m_{i}(\vec{v}_{i}\cdot \vec{v}_{i})=\sum_{i} \frac{1}{2}m_{i}(\vec{v}_{cm}+\vec{u}_{i})\cdot (\vec{v}_{cm}+\vec{u}_{i})=\\&=\sum_{i} \frac{1}{2}m_{i}v_{cm}^2+\sum_{i} \frac{1}{2}m_{i}u_{i}^2+v_{cm}\cdot\sum_{i}m_{i}u_{i}=\sum_{i} \frac{1}{2}m_{i}v_{cm}^2+\sum_{i} \frac{1}{2}m_{i}u_{i}^2=\\&=\frac{1}{2}Mv_{cm}^2+K_{rel}\end{align}$$onde $K_{rel}$ é a energia cinética relativa ao centro de massa e $u_{i}$ a velocidade em relação ao centro de massa de cada partícula.
 
-**Energia potencial gravítica de um sistema de**  $N$ **partículas:** $$$$
+**Energia potencial gravítica de um sistema de**  $N$ **partículas:** $$\mathcal{U}=\sum_{i}m_{i}gh_{i}=g\sum_{i}m_{i}h_{i}=gMh_{cm}$$
+**Colisões:** Dois corpos aproximam-se e interagem fortemente durante um curto intervalo de tempo.
+	Estas colisões podem ser:
+		- A
