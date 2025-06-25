@@ -207,7 +207,8 @@ Além disto, vamos precisar de uma [[Velocidades pós colisões|relação difere
 Temos ainda **colisões oblíquas**, onde os corpos podem não bater de frente mas sim com uma certa angulação.![[Pasted image 20250625220033.png]]
 A distância $b$ entre os centros chama-se por parâmetro de impacto.
 
-Um caso interessante da colisão elástica oblíqua é quando os corpos têm a mesma massa e um deles se encontra inicialmente em repouso. A conservação do momento linear permite obter:
+Um caso interessante da colisão elástica oblíqua é quando os corpos têm a mesma massa e um deles se encontra inicialmente em repouso. A 
+permite obter:
 
 $$
 m \vec{v}_{1 i}=m \vec{v}_{1 f}+m \vec{v}_{2 f} \Leftrightarrow \vec{v}_{1 i}=\vec{v}_{1 f}+\vec{v}_{2 f}
