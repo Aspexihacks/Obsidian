@@ -161,3 +161,4 @@ Logo, vemos que, se quisermos ter o impulso de uma força não constante, devemo
 O impulso de uma força pode ser usado como uma "medida" do efeito da força. Exemplo:
 	É claro que uma explosão de uma bomba faz um efeito mais intenso em milissegundos do que um nadador a empurrar a parede numa partida de costas durante um ou dois segundos.
 
+Usando a segunda lei de Newton, 
