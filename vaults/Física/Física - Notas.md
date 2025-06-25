@@ -188,3 +188,4 @@ ficando com a quantidade de movimento de um sistema de partículas.
 A aceleração define-se da mesma maneira, ficando com $$\vec{a}_{cm}=\frac{d\vec{v}_{cm}}{dt}=\frac{1}{M}\sum^N_{1}m_{i} \frac{d\vec{v}_{i}}{dt}=\sum^N_{1}m_{i} \vec{a}_{i}=\frac{1}{M} \sum_{1}^N\vec{F}_{i}$$
 Logo $M\vec{a}_{cm}$ será igual à soma de todas as forças que atuam sobre todas as partículas do sistema.
 
+Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
