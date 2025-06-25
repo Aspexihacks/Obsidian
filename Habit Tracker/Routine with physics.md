@@ -52,9 +52,9 @@
 
 ## 🌙 Evening Session (≈ 6:00 PM – Midnight+): Unified Exploration
 
-- **Blend math and physics** in creative thought:
+- **Dive into math** in creative thought:
   - Work on one deep problem or system.
-  - Seek mathematical structures behind physical laws.
+  - Seek mathematical structures behind the concepts of the problems.
   - Explore connections (e.g., variational principles, symmetries, conservation laws).
 - Go for a walk while thinking.
 - Write only when intuition converges into form.
