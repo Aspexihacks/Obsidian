@@ -1,3 +1,5 @@
+#Outros 
+
 # Bloco a deslizar por uma superfície inclinada
 
 ![[Pasted image 20250621174647.png]]

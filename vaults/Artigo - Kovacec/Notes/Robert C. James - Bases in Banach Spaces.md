@@ -1,4 +1,4 @@
-
+#Artigos 
 # Context
 
 ## Shauder Basis
@@ -78,7 +78,7 @@ Since $\{t_i\}$ is dense in $[0,1]$ and $h$ is uniformly continuous, $\sum ^n_{1
 
 If $\{e_{n}\}$ is a basis for $X$, it clearly needs to dense in $X$. *Not being sufficient, even if we suppose the linear independence. An example of this is the sequence of polynomials $\{t^{n-1}:n\geq1\}$ which is not a basis for $C[0,1]$.* 
 
-## A useful inequality
+## An useful inequality
 
 Suppose the linear span of $\{e_n\}$ is dense in $X$, no $e_{n}$ is 0 and there is a positive $K$ such that, for all $n,p \in \mathbb{N}$ and scalars $\{a_{i}\}$,$$K\left\lvert  \left\lvert  \sum^{n+p}_{i=1}  \right\rvert   \right\rvert \geq \left\lvert  \left\lvert  \sum ^{n}_{i=1}a_{i}e_{i}  \right\rvert   \right\rvert. $$
 For each $k$, let $x^{*}_{k}$ be a linear functional defined on $lin\{e_{n}\}$ by letting $\left( e^{*}_{k},\sum^{n}_{1}a_{i}e_{i} \right)$ be $a_k$ in $n\geq k$ and 0 otherwise. Then each ${e^*_k}$ is continuous. In fact, for any $x=\sum^{\infty}_{1}x_{i}e_{i}$ with finitely many nonzero terms, $$
@@ -105,7 +105,7 @@ This way, we can now rewrite the theorem in terms of projections:
 
 This theorem is used to prove that a candidate for a basis is an actual basis.
 
-An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1] ]], $\mathcal{L}_{p}[0,1]$.
+An example of its usage is proving that, $\{\phi_{i}\}$, [[the Haar System is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1] ]], $\mathcal{L}_{p}[0,1]$.
 
 # Equivalent Basis
 
@@ -116,3 +116,29 @@ An example of its usage is proving that, $\{\phi_{i}\}$, [[the *Haar System*  is
 Even with the given theorem above, bases do have some stability. If each basis vector is perturbed by a sufficiently small amount, it remains a basis and is equivalent to the original basis.
 
 **Theorem:** If $\{u_{n}\}$ is a normalized basis of $X$ and $\{u^*_n\}$ is the corresponding sequence of coefficient functionals, then $\{v_n\}$ is a basis for $X$ and is equivalent to $\{u_{n}\}$ if $$\sum^\infty_{i=1}||u_{i}-v_{i}||\ ||u_{i}^*||<1.$$
+$Proof:$ Let $K$ be the basis constant of $\{u_n\}$, a normalized basis of $X$, and $\{u^{*}_{n}\}$ the coefficient functionals. Putting $$\theta=\sum^{\infty}_{1}\lvert \lvert u_{i}-v_{i} \rvert  \rvert \ \lvert \lvert u_{i}^* \rvert  \rvert$$and setting the linear mapping $$\begin{align}T:X&\to span\{v_{i}\}\\\sum^{\infty}_{1}x_{i}u_{i}&\mapsto \sum^{\infty}_{1}x_{i}v_{i} \end{align}$$so we can now use the inequality we proved earlier ([[Robert C. James - Bases in Banach Spaces#An useful inequality|An useful inequality]]) to get $$\lvert \lvert u_{i}^* \rvert  \rvert\leq {2}K ,\forall_{i\in \mathbb{N}}.$$
+This gives us that$$\lvert x_{n} \rvert =\lvert (u_{n}^{*},x) \rvert \leq \lvert \lvert u_{n}^* \rvert  \rvert\  \lvert \lvert x \rvert  \rvert.\tag{1}$$
+We can see that $\big|\big|\sum^{\infty}_{1}x_{i}(u_{i}-v_{i})\big|\big|=\big|\big|x-Tx\big|\big|$, and so, by $(1)$, $\big|\big|x-Tx\big|\big|=\big|\big|\sum^{\infty}_{1}x_{i}(u_{i}-v_{i})\big|\big|\leq ||x|| \sum^{\infty}_{1}||u_{i}-v_{i}||\ ||u_{i}^{*}||=\theta \cdot||x|| <||x||,$ and just like that we get that $\sum^{\infty}_{1}x_{i}v_{i}$ converges.
+We also have that $$\begin{align}
+\lvert \lvert x \rvert  \rvert -\lvert \lvert x-Tx \rvert  \rvert &\leq \lvert \lvert Tx \rvert  \rvert \leq \lvert \lvert x \rvert  \rvert + \lvert \lvert x-Tx \rvert  \rvert\implies\\&\implies (1-\theta)\lvert \lvert x \rvert  \rvert \leq \lvert \lvert Tx \rvert  \rvert (1+\theta)\lvert \lvert x \rvert  \rvert .
+\end{align}\tag{2}$$
+Hence, $T$ is an *isomorphism*.
+
+$Tu_{i}=v_{i}\implies v_{i}\not=0$
+
+and also $\lvert \lvert I-T \rvert \rvert \leq \theta <1 \implies lin\{v_{i}\}$ is dense in $X$.
+
+Defining$$\begin{cases}
+\sigma_{n}=\sum_{1}^{n}a_{i}u_{i} \\
+\sigma_{n+1}=\sum^{n+p}_{1}a_{i}u_{i}
+\end{cases}$$we get, by $(2)$, that $$||T\sigma_{n}||\leq (1+\theta) ||\sigma_{n}||\leq (1+\theta)K||\sigma_{n+1}||\leq \frac{{1+\theta}}{1-\theta}K||T\sigma_{n+1}||.$$
+Hence $K'$=$\frac{1+\theta}{1-\theta}K$ is the basis constant of $\{v_n\}$ as a basis for $X$.
+
+Since every $x \in X$ has a unique representation in the base $\{u_{n}\}$ and so ,by means of the isomorphism $T$, $Tx$ also has a unique representation in the base $\{v_{n}\}$ and since $T$ has range $X$, we get that every $x \in X$ also gets an unique representation in the form $\sum^{\infty}_{n}x_{i}v_{i}.\square$ 
+
+## An example
+
+One can now figure out that $C[0,1]$ also as a basis of polynomials, because of this last theorem, but as said before it is not any sequence of polynomials but one which has a much rapid growth in the degrees of the polynomials.
+
+# Bases and Duality
+
