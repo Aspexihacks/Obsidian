@@ -177,4 +177,7 @@ Para dar contexto ao estudo seguinte, devemos notar que o movimento de qualquer 
 
 >Entre duas partículas distanciadas por $d$ com massas $m_{1}<m_2$, o centro de massa pode ser encontrado pela expressão $$\begin{align}\frac{d\cdot m_{2}}{m_{1}+m_{2}}\end{align}$$
 
-Dado um corpo contínuo substitui-se o somatório por um integral, afinal, deixamos de falar de objetos discretos e passamos a descrever 
+Dado um corpo contínuo substitui-se o somatório por um integral, afinal, deixamos de falar de objetos discretos e passamos a descrever volumes contínuos. Assim, ficamos com$$\vec{r}_{cm}=\frac{1}{m}\int_{\text{massa do corpo}}\vec{r}\ dm=\frac{1}{M}\int_{\text{volume do corpo}}\rho \vec{r}\ dV$$onde $\rho$ é a densidade do corpo.
+
+Dados *corpos simétricos e homogéneos* o centro de massa estará sobre os *eixos de simetria*.
+
