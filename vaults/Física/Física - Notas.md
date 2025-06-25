@@ -190,3 +190,4 @@ Logo $M\vec{a}_{cm}$ será igual à soma de todas as forças que atuam sobre tod
 
 Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
 **Energia cinética de um sistema de**  $N$ **partículas:** $$K=\sum_{1}^NK_{i}=\sum_{1}^N \frac{1}{2} m_{i}v_{i}^2$$
+> De forma geral podemos representar a energia cinética de um sistema de partículas por$$K=\sum_{i}K_{i}=\sum_{i}$$
