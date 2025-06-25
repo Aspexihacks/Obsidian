@@ -259,3 +259,110 @@ A: Se $\vec{F}_{ext,res} = 0$, o momento linear total é constante, $\vec{P} = M
 Q: O que é impulso? 
 A: O produto da força média pelo tempo, dado por $I = \bar{F} \Delta t$, ou $I = \int_{t_{0}}^{t_{1}} \vec{F} dt$ para forças não constantes.
 <!--ID: 1750786654433-->
+
+
+Q: O que é a força média? 
+A: A força média é calculada como $\vec{F}_{med} = \frac{1}{\Delta t} \int_{t_{i}}^{t_{f}} \vec{F} dt = \frac{\vec{I}}{\Delta t}$.
+<!--ID: 1750885046137-->
+
+
+
+Q: O que é a força resultante média? 
+A: A força resultante média é dada por $\vec{F}_{res,med} = \frac{\vec{I}_{res}}{\Delta t}$, onde $\vec{I}_{res} = \Delta \vec{p}$.
+<!--ID: 1750885046148-->
+
+
+
+Q: O que é o centro de massa? 
+A: Ponto onde se considera concentrada a massa do sistema, dado por $\vec{r}_{cm} = \frac{1}{M} \sum_{i=1}^N m_{i} \vec{r}_{i}$, onde $M$ é a massa total.
+<!--ID: 1750885046153-->
+
+
+
+Q: Como são definidas as coordenadas do centro de massa? 
+A: As coordenadas são $x_{cm} = \frac{1}{M} \sum_{i=1}^N m_{i} \vec{x}_{i}$, $y_{cm} = \frac{1}{M} \sum_{i=1}^N m_{i} \vec{y}_{i}$, $z_{cm} = \frac{1}{M} \sum_{i=1}^N m_{i} \vec{z}_{i}$.
+<!--ID: 1750885046159-->
+
+
+
+Q: Como encontrar o centro de massa entre duas partículas? 
+A: Para duas partículas com massas $m_1 < m_2$ separadas por $d$, é $\frac{d \cdot m_2}{m_1 + m_2}$ a partir da partícula de massa $m_1$.
+<!--ID: 1750885046166-->
+
+
+
+Q: Como é definido o centro de massa para um corpo contínuo? 
+A: É dado por $\vec{r}_{cm} = \frac{1}{M} \int_{\text{volume do corpo}} \rho \vec{r} , dV$, onde $\rho$ é a densidade.
+<!--ID: 1750885046172-->
+
+
+
+Q: Onde está o centro de massa em corpos simétricos e homogêneos? 
+A: Está localizado sobre os eixos de simetria do corpo.
+<!--ID: 1750885046177-->
+
+
+
+Q: O que é a velocidade do centro de massa? 
+A: A velocidade é $\vec{v}_{cm} = \frac{1}{M} \sum_{i=1}^N m_{i} \vec{v}_{i}$, onde $\vec{v}_{i}$ são as velocidades das partículas.
+<!--ID: 1750885046182-->
+
+
+
+Q: Como é definida a quantidade de movimento do centro de massa? 
+A: É $\vec{p}_{cm} = M \vec{v}_{cm} = \sum_{i=1}^N m_{i} \vec{v}_{i}$.
+<!--ID: 1750885046187-->
+
+
+
+Q: O que é a aceleração do centro de massa? 
+A: A aceleração é $\vec{a}_{cm} = \frac{1}{M} \sum_{i=1}^N \vec{F}_{i}$, igual à força externa resultante dividida pela massa total.
+<!--ID: 1750885046192-->
+
+
+
+Q: Como a terceira lei de Newton se relaciona com o centro de massa? 
+A: A força externa resultante é $\vec{F}_{ext,res} = M \vec{a}_{cm}$, onde $\vec{a}_{cm}$ é a aceleração do centro de massa.
+<!--ID: 1750885046197-->
+
+
+
+Q: O que é a energia cinética de um sistema de N partículas? 
+A: É $K = \sum_{i=1}^N \frac{1}{2} m_{i} v_{i}^2$.
+<!--ID: 1750885046203-->
+
+
+
+Q: Como é expressa a energia cinética total de um sistema? 
+A: É $K = \frac{1}{2} M v_{cm}^2 + K_{rel}$, onde $K_{rel}$ é a energia cinética relativa ao centro de massa.
+<!--ID: 1750885046212-->
+
+
+
+Q: O que é a energia potencial gravítica de um sistema de N partículas? 
+A: É $\mathcal{U} = g M h_{cm}$, onde $h_{cm}$ é a altura do centro de massa.
+<!--ID: 1750885046217-->
+
+
+
+Q: O que é uma colisão perfeitamente elástica? 
+A: Uma colisão onde a energia cinética total dos corpos é conservada antes e depois.
+<!--ID: 1750885046223-->
+
+
+
+Q: O que é uma colisão inelástica? 
+A: Uma colisão onde a energia cinética dos corpos se altera antes e depois.
+<!--ID: 1750885046228-->
+
+
+
+Q: O que é uma colisão perfeitamente inelástica? 
+A: Uma colisão onde os corpos ficam juntos e param após a colisão.
+<!--ID: 1750885046234-->
+
+
+
+Q: O que é conservado em uma colisão frontal a uma dimensão? 
+A: O momento linear é conservado, dado por $m_{1} v_{1f} + m_{2} v_{2f} = m_{1} v_{1i} + m_{2} v_{2i}$.
+<!--ID: 1750885046240-->
