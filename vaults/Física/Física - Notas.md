@@ -185,3 +185,4 @@ Tal como já era comum, para obter a **velocidade do centro de massa**, basta de
 Ou seja,$$M\vec{v}_{cm}=\sum_{1}^Nm_{i}\vec{v}_{i}=\sum^N_{1}\vec{p}_{i}=\vec{p}_{cm},$$
 ficando com a quantidade de movimento de um sistema de partículas.
 
+A aceleração define-se da mesma maneira, ficando com $$\vec{a}_{cm}=\frac{d\vec{v}_{cm}}{dt}=\frac{1}{M}$$
