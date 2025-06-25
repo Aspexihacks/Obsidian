@@ -195,4 +195,7 @@ Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
 **Energia potencial gravítica de um sistema de**  $N$ **partículas:** $$\mathcal{U}=\sum_{i}m_{i}gh_{i}=g\sum_{i}m_{i}h_{i}=gMh_{cm}$$
 **Colisões:** Dois corpos aproximam-se e interagem fortemente durante um curto intervalo de tempo.
 	Estas colisões podem ser:
-		- A
+		- *Perfeitamente elástica*: a energia cinética total dos corpos é a mesma, antes e depois da colisão.
+		- *Inelástica*: a energia cinética dos corpos altera-se, antes e depois da colisão.
+		- *Perfeitamente inelástica*: Ambos os corpos param imediatamente depois da colisão, isto é, ficam "juntos".
+
