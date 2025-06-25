@@ -199,3 +199,4 @@ Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
 		- *Inelástica*: a energia cinética dos corpos altera-se, antes e depois da colisão.
 		- *Perfeitamente inelástica*: Ambos os corpos param imediatamente depois da colisão, isto é, ficam "juntos".
 
+Podemos ver que na colisão de dois corpos a uma dimensão
