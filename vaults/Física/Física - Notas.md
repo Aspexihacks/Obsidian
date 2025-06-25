@@ -172,3 +172,6 @@ De acordo com este teorema, o impulso resultante das forças extremas que atuam 
 As coordenadas deste ponto geométrico são$$x_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{x}_{i},\quad y_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{y}_{i},\quad z_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{z}_{i}$$
 >    **NOTA:**  Este ponto não precisa de ser a posição de nenhuma das partículas do sistema!
 
+
+Para dar contexto ao estudo seguinte, devemos notar que o movimento de qualquer corpo ou sistema de partículas pode ser descrito pelo *movimento do centro de massa*.
+
