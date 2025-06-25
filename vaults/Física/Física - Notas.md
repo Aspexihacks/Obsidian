@@ -162,5 +162,10 @@ O impulso de uma força pode ser usado como uma "medida" do efeito da força. Ex
 	É claro que uma explosão de uma bomba faz um efeito mais intenso em milissegundos do que um nadador a empurrar a parede numa partida de costas durante um ou dois segundos.
 
 Usando a segunda lei de Newton, obtemos o **teorema do impulso para uma partícula:** $$\vec{F}_{res}=\frac{d\vec{p}}{dt}\implies\vec{I}_{res}=\int_{t_{i}}^{t_{f}}\vec{F}_{res}dt=\int_{t_{i}}^{t_{f}}d\vec{p}=\Delta \vec{p}.$$
+
 De acordo com este teorema, o impulso resultante das forças extremas que atuam sobre o sistema de partículas é igual à variação do momento linear total do sistema:$$\vec{I}_{ext,res}=\int_{t_{i}}^{t_{f}}F_{ext,res}dt=\Delta \vec{P}_{sis}$$
+
 **Força média:** É calculada num certo intervalo de tempo$$\vec{F}_{med}=\frac{1}{\Delta t}\int^{t_{f}}_{t_{i}}\vec{F}dt=\frac{\vec{I}}{\Delta t}$$
+
+**Força resultante média:** É calculada da seguinte forma$$\vec{I}_{res}=\vec{F}_{res,med}\Delta t=\Delta \vec{p}$$
+**Centro de massa:** 
