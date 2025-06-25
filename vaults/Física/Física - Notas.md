@@ -175,3 +175,5 @@ As coordenadas deste ponto geométrico são$$x_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}
 
 Para dar contexto ao estudo seguinte, devemos notar que o movimento de qualquer corpo ou sistema de partículas pode ser descrito pelo *movimento do centro de massa*.
 
+>Entre duas partículas distanciadas por $d$ com massas $m_{1}<m_2$, o centro de massa pode ser encontrado pela expressão $$\begin{align}\frac{d\cdot m_{2}}{m_{1}+m_{2}}\end{align}$$
+
