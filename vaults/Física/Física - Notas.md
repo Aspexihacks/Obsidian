@@ -168,5 +168,7 @@ De acordo com este teorema, o impulso resultante das forças extremas que atuam 
 **Força média:** É calculada num certo intervalo de tempo$$\vec{F}_{med}=\frac{1}{\Delta t}\int^{t_{f}}_{t_{i}}\vec{F}dt=\frac{\vec{I}}{\Delta t}$$
 
 **Força resultante média:** É calculada da seguinte forma$$\vec{I}_{res}=\vec{F}_{res,med}\Delta t=\Delta \vec{p}$$
-**Centro de massa:** Ponto geométrico onde se supõe estar concentrada toda a massa, além disso, onde se considera aplicada a resultante das forças gravíticas que atuam nesse sistema. 
-	A sua definição é então$
+**Centro de massa:** Ponto geométrico onde se supõe estar concentrada toda a massa, além disso, onde se considera aplicada a resultante das forças gravíticas que atuam nesse sistema. A sua definição é então$$\vec{r}_{cm}=\frac{m_{1}\vec{r}_{1}+m_{2}\vec{r}_{2}+\dots+m_{N}\vec{r}_{N}}{M}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{r}_{i}$$onde $M$ é a soma das massas de cada partícula do sistema.
+As coordenadas deste ponto geométrico são$$x_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{x}_{i},\quad y_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{y}_{i},\quad z_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{z}_{i}$$
+>    **NOTA:**  Este ponto não precisa de ser a posição de nenhuma das partículas do sistema!
+
