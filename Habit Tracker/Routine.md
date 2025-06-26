@@ -1,3 +1,4 @@
+#Daily 
 # 🧠 Hamiltonian Study Routine (Pure Mathematics)
 
 > A study routine modeled after the habits of William Rowan Hamilton — obsessive, intense, and devoted entirely to mathematics. No distractions. No dilution.

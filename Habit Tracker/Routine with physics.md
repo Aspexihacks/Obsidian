@@ -1,3 +1,4 @@
+#Daily 
 # 🧠 Hamiltonian Study Routine (Mathematics + Physics)
 
 > Inspired by the obsessive, immersive habits of William Rowan Hamilton — now expanded to include the natural twin of mathematics: physics.

@@ -1,3 +1,5 @@
+#Daily 
+
 ```tracker
 searchType: frontmatter
 searchTarget: Study
