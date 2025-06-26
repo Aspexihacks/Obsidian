@@ -31,7 +31,7 @@ Obtemos, com este raciocínio, diversas formas de cálculo para as funções de 
 onde $x_0=x(t_{0})$ e $v_0=v(t_{0})$.
 
 Podemos fazer a seguinte transformação:$$\begin{align}
-v=v_{0}+a(t-t_{0})&\iff v^2=v_{0}^2+2\cdot v_{0}\cdot a\cdot(t-t_{0})+a^2\cdot(t-t_{0})^2\iff(\text{Subs. por x})\\&\iff v_{0}^2+2\cdot(x-x_{0})
+v=v_{0}+a(t-t_{0})&\iff v^2=v_{0}^2+2\cdot v_{0}\cdot a\cdot(t-t_{0})+a^2\cdot(t-t_{0})^2\iff(\text{Subs. por x})\\&\iff v_{0}^2+2\cdot a\cdot(x-x_{0})
 \end{align}$$
 Todos os objetos estão sujeitos á mesma aceleração, quando estão nas proximidades da superfície terrestre.
 
