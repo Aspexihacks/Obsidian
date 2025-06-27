@@ -235,3 +235,10 @@ Em geral, temos outra definição.
 Podemos dar um método, meio que generalizado, quando tratamos de um problema de estática do corpo generalizado.
 
 ### O método
+
+1) Desenhamos o diagrama de corpo livre para o objeto em estudo.
+2) Escolher, como sempre um sistema de eixos apropriado.
+3) Escrever as forças analiticamente.
+4) Calcular todos os momentos de forças em relação a um ponto qualquer do espaço, o ponto deve ser escolhido de forma vantajosa.
+5) 
+
