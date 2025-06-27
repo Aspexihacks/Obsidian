@@ -262,3 +262,4 @@ O módulo de Young é uma medida de resistência do material ao tipo de força e
 
 À razão $\frac{\Delta L}{L}$ também medida em $Pa$, sendo designada por *deformação*.
 
+A elasticidade dos sólidos explica-se pela [[constituição atómica dos materiais]].
