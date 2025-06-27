@@ -223,3 +223,9 @@ $$
 As três velocidades formam portanto um triângulo retângulo, ou seja, neste caso particular as velocidades finais são perpendiculares.
 
 **Momento de uma força:** Sendo $\vec{r}$ a posição da força, $\vec{F}$ a força e $\theta$ o ângulo entre eles, temos o momento $$\vec{M}=\vec{r}\times \vec{F},$$onde $$|\vec{M}|=|\vec{r}||\vec{F}|\sin \theta.$$
+**Corpo Rígido:** A posição das partículas nesse sistema em relação ao centro de massa é fixa.
+	Se a velocidade do corpo for nula, o corpo diz-se em *equilíbrio estático*.
+
+Em geral, temos outra definição.
+
+**Equilíbrio estático:** 
