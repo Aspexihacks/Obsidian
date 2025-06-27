@@ -228,4 +228,7 @@ As três velocidades formam portanto um triângulo retângulo, ou seja, neste ca
 
 Em geral, temos outra definição.
 
-**Equilíbrio estático:** 
+**Equilíbrio estático:** É um estado alcançado por um objeto quando satisfaz as seguintes condições:
+	~ Força resultante nula, $\vec{F}_{res}=0$.
+	~ Movimento de rotação nulo, isto é, a soma dos momentos é nula, $\vec{M}_{res}=0$.
+
