@@ -252,4 +252,13 @@ Ao aplicar tensão ou compressão num corpo temos uma certa deformação.
 		**Regime plástico:** onde a força já ultrapassa um certo limite na tensão ou compressão e resulta em deformações permanentes.
 		**Regime elástico:** antes desse limite de força, causando *deformações elásticas*, isto é, que voltam ao normal.
 
-A deformação elástica pode ser descrita como $$\frac{F}{A}=Y \frac{\Delta L}{L}$$onde $F$ é intensidade da força aplicada, $A$ é a áre
+A deformação elástica pode ser descrita como $$\frac{F}{A}=Y \frac{\Delta L}{L}$$onde $F$ é intensidade da força aplicada, $A$ é a área de secção transversal e $Y$ o *módulo de Young*.
+
+O módulo de Young é uma medida de resistência do material ao tipo de força exercida nele. ($SI=N/m^{2}\ ou\ Pa(/Pascal)$ )
+	Se $Y$ for grande, o material será difícil de quebrar.
+	Se $Y$ for pequeno, o material será fácil de quebrar.
+
+À razão $\frac{F}{A}$ também medida em $Pa$, sendo designada por *tensão*.
+
+À razão $\frac{\Delta L}{L}$ também medida em $Pa$, sendo designada por *deformação*.
+
