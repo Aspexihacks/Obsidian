@@ -1,0 +1,274 @@
+#Outros
+
+**Partícula** - Objeto cuja posição pode ser descrita por um único ponto(tudo o que possa ignorar estrutura interna)
+
+**Deslocamento**($SI=metro$) - Grandeza vetorial que nos dá a variação de posição.
+	A $dim(\cdot)=1$ o deslocamento pode ser descrito por um escalar:$$\Delta x=x_{f}-x_{i}.$$
+	Podemos, na mesma dimensão, descrever a posição e deslocamento por vetores:
+	![[Pasted image 20250619132826.png]]
+
+**Velocidade média**($SI=m / s$) - razão entre o deslocamento e intervalo de tempo.
+
+**Rapidez média** - $\frac{\text{distância total percorrida}}{\text{tempo total}}$.
+
+**Velocidade instantânea** - $v(t)=\lim_{ n \to 0 } \frac{{\Delta x}}{\Delta t}=\frac{dx}{dt}$, onde $x(t)$ descreve a posição em função do tempo.
+
+**Aceleração** - taxa de variação da velocidade instantânea.
+
+**Aceleração média** - razão entre a variação de velocidade instantânea e o intervalo de tempo.
+
+**Aceleração instantânea**($SI=\frac{m}{s^2}$) - $a(t)=\lim_{ n \to 0 }\frac{{\Delta v}}{\Delta t}= \frac{dv}{dt}=\frac{d^2x}{dt^2}$.
+
+Usando integração, podemos andar para trás no processo de derivação e passar de aceleração para velocidade, da mesma maneira, podemos passar de velocidade para posição.
+
+Desta maneira, surge a **lei do movimento**:
+	$$dx=v\ dt\implies \int^{x(t)}_{x(t_{0})}dx=\int^t_{t_{0}}v(t)dt\implies x(t)=x(t_{0})+\int^t_{t_{0}}v(t)dt$$
+
+de onde a *aceleração média* e a *velocidade média* são dadas por: $$a_m=\frac{{v(t)-v(t_{0})}}{t-t_{0}}=\frac{1}{t-t_{0}}\int^t_{t_{0}}a(t)dt,\quad v_m=\frac{{x(t)-x(t_{0})}}{t-t_{0}}=\frac{1}{t-t_{0}}\int^t_{t_{0}}v(t)dt.$$
+Movimentos com aceleração constante são muito comuns na natureza. (*Exemplo:* Queda-livre em proximidades da superfície terrestre.)
+
+Obtemos, com este raciocínio, diversas formas de cálculo para as funções de posição e velocidade:$$a\in \mathbb{R}\text{, constante}$$$$v(t)=v_{0}+\int^t_{t_{0}}a\cdot du=v_{0}+a\cdot(t-t_{0})$$$$x(t)=x_{0}+\int^t_{t_{0}}v\cdot du=x_{0}+v_{0}\cdot(t-t_{0})+\frac{1}{2}\cdot a\cdot(t-t_{0})^2$$
+onde $x_0=x(t_{0})$ e $v_0=v(t_{0})$.
+
+Podemos fazer a seguinte transformação:$$\begin{align}
+v=v_{0}+a(t-t_{0})&\iff v^2=v_{0}^2+2\cdot v_{0}\cdot a\cdot(t-t_{0})+a^2\cdot(t-t_{0})^2\iff(\text{Subs. por x})\\&\iff v_{0}^2+2\cdot a\cdot(x-x_{0})
+\end{align}$$
+Todos os objetos estão sujeitos á mesma aceleração, quando estão nas proximidades da superfície terrestre.
+
+**Gravidade Terrestre:** $g\approx 9,8m/s^2$
+
+**[[Movimento em duas ou três dimensões]]**: Devemos fixar um referencial que seja independente ao movimento e posições.
+
+**Força:** Grandeza vetorial que representa uma interação.
+
+**Interações à distância:** Aquilo que introduz o conceito de *campo*( de forças).
+
+Todas as forças que são observadas na natureza podem ser descritas em função das **quatro interações fundamentais**:
+	1. Força Gravitacional
+	2. Força Eletromagnética
+	3. Força nuclear forte
+	4. Força nuclear fraca
+
+As *forças de contacto entre sólidos* encaixam-se em forças eletromagnéticas.
+
+**Força normal:** É a componente de força de contacto *perpendicular* à superfície de contacto.
+
+**Força de atrito:** É a componente de força de contacto *paralela* à superfície de contacto.
+
+Forças de contacto são sempre *distribuídas* ao longo de toda a região de contacto, embora às vezes representemos como forças pontuais.
+
+Os princípios da dinâmica podem ser explicitados pelas ***leis de Newton:*** 
+	1. [[Lei da Inércia]]
+	2. [[Lei Fundamental da Dinâmica]]
+	3. [[Lei da Ação e Reação]]
+
+Uma lei que pode vir a ser útil é a [[Lei da Gravitação Universal]].
+
+Um *diagrama de corpo livre* é uma forma esquemática de apresentar todas as forças que estão a ser aplicadas ou que atuam no sistema em estudo. Podemos seguir alguns passos para criar um destes diagramas:
+	1. Identificar o sistema em estudo
+	2. Identificar todas as forças que atuam no sistema
+	3. Escolher um referencial conveniente
+	4. Representar o diagrama usando o referencial as forças e a aceleração
+	5. Aplicar a segunda lei de Newton a cada componente de força e aceleração
+	6. Tirar conclusões
+
+Exemplo:
+![[Pasted image 20250621174101.png]]
+
+Existem algumas [[aplicações para as leis de Newton]] que servem alguns modelos "simples".
+
+**Forças elásticas:** Ocorrem quando esticamos uma mola ou deformamos um corpo sólido e elástico.
+
+Estas forças são-nos dadas pela *Lei de Hooke:*$$\vec{F}=-k\Delta \vec{x}$$onde $k$ é a constante elástica e $\Delta x$ a variação de comprimento da mola (ou sólido) que originou a força.
+
+As forças elásticas têm sempre sentido oposto às deformações que as causam.
+
+O sistema para momentaneamente numa posição de compressão máxima, começando a mover-se no sentido inverso (*a mola tende a voltar ao equilíbrio*). Chegando a essa posição, como o sistema tem velocidade, *não para e começa de novo a distender a mola*. A força restauradora começa a agir em sentido contrário… e *o movimento repete-se indefinidamente* (**oscilações**).
+
+O tipo de movimento descrito acima segue uma onda sinusoidal em função do tempo ($A\cdot\sin\left( \frac{2\pi}{T} t \right)$ ou $A\cdot\cos\left( \frac{2\pi}{T} t \right)$).
+
+**Trabalho:** É realizado por uma força se o ponto de aplicação da mesma se move numa direção não perpendicular à própria força.
+
+**Transferência de Energia:** Dá-se sempre que um sistema realiza trabalho sobre outro.
+
+**Energia Cinética:** Tem haver com o movimento do corpo.
+
+**Energia Potencial:** Está intimamente ligada com a maneira como o sistema está posto.
+
+**Definição:** O *trabalho* é definido como o produto interno da força com o deslocamento do ponto de aplicação.
+	Dada uma força constante:$$W=\vec{F}\cdot \Delta \vec{x}=F\Delta x \cos \theta$$onde $F, \Delta x$ são a norma de $\vec{F}, \Delta \vec{x}$ e $\theta$ é o ângulo entre $\vec{F}\text{ e } \Delta \vec{x}$.
+	A sua unidade SI é o joule (J).
+
+A nossa questão inicial será então: "Se tivermos uma força não constante, como definimos o trabalho?"
+
+Para definir o trabalho realizado por uma força não constante ao longo de uma distância, devemos representar $F(x)$, uma curva, e fazer partições do domínio, distância a percorrer.
+
+Isto já foi visto em [[Análise IV (Integral Curvílineo)]], dando uma maneira rigorosa de provada de achar o trabalho dada uma força não constante.
+
+O trabalho corresponde então a uma *transferência de energia* para o sistema, isto é, se o trabalho for positivo, então o sistema recebe energia e se o trabalho for negativo, então o sistema perde energia.
+
+**Trabalho total:** Soma algébrica do trabalho que todas as forças realizam sobre um corpo.
+
+**Trabalho da resultante das forças:** Dado um deslocamento $\Delta \vec{r}$ e a força resultante $\vec{F}_{R}=\sum_{i}\vec{F}_{i}$ onde $\vec{F}_{i}$ são forças atuando no corpo, temos como trabalho da resultante das forças$$\vec{F}_{R}\cdot \Delta \vec{r}.$$
+A *energia cinética* é por definição dada por $E_{c}\equiv K=\frac{1}{2}mv^{2}(Joule)$.
+
+Há uma importante relação entre a energia cinética e o trabalho:
+	**Teorema da Energia Cinética:** O trabalho realizado durante um certo intervalo de tempo pela resultante das forças é igual à variação da sua energia cinética no mesmo intervalo de tempo.
+		$\mathcal{Prova:}$ $$\begin{align}
+W_{AB}&=\int_{A}^{B}\vec{F}_{res}\cdot d \vec{r} = \int_{A}^{B} F_{res,t}ds=\\&=\int_{A}^{B}ma_{t}ds=\int_{A}^{B}m \frac{dv}{ds}ds=\\&=\int_{A}^{B}mv\ dv=\frac{1}{2}mv^{2}_{B}-\frac{1}{2}mv^{2}_{A}=\Delta K
+\end{align}$$
+	**Formulação alternativa:** Quando se realiza trabalho sobre um sistema e a única alteração que se observa nesse sistema é a sua velocidade, o trabalho total realizado sobre o sistema é então dado pela variação de energia cinética.
+
+**Potência:** Trabalho realizado por unidade de tempo, sendo a *potência média* dada por $$P_{med}=\frac{W}{\Delta t}.$$
+A *potência instantânea (Watt ou J/s)*, tal como a velocidade e aceleração instantânea é dada pela derivada do trabalho, isto é, $$P= \frac{dW}{dt}=\vec{F}\cdot \vec{v}\ \ \ .$$
+Em muitos casos, o trabalho realizado por forças externas sobre o sistema não aumenta a energia cinética, mas é armazenado em forma de *energia potencial*.
+
+**Força conservativa:** Força que realiza trabalho nulo sobre um ponto material ao longo de qualquer trajeto fechado. Em [[Análise IV (Integral Curvílineo)]] dizemos que o integral curvilíneo aplicado a essa força é *independente de caminho*.
+	Uma característica destas forças é que o trabalho realizado por ela é sempre *reversível*, isto é, toda a energia armazenada como energia potencial pode ser recuperada sem perdas de movimento (em contexto de velocidade/aceleração).
+
+**Forças não conservativas:** São as forças que não são independentes de caminho.
+	Algumas destas, como o atrito e resistência num fluido, produzem a dissipação de energia mecânica, estas são chamadas *forças dissipativas*.
+	Existem também algumas que produzem um aumento de energia, como explosões, etc.
+
+Para forças conservativas, podemos definir a *função energia potencial* associada a essas forças:$$\Delta \mathcal{U} = \mathcal{U}_{2}-\mathcal{U}_{1}=-\int_{1}^{2}\vec{F}\cdot d \vec{r}.$$
+Já vimos [[duas forças de interação que são fontes de  energia potencial]].
+
+
+**Princípio da conservação da energia:** A energia pode ser convertida de uma forma para a outra ou transmitida de uma região para outra, mas não pode ser criada ou destruída.
+
+Geralmente, a energia total de um sistema é a soma de todas as energias nele, sejam elas mecânicas, térmicas, química, etc. $$E_{sistema}=E_{m}+E_{q}+E_{t}+\dots\ .$$
+Se a única fonte de energia transferida for a realização de trabalho sobre o sistema a partir do exterior, então a lei da conservação de energia fica: $$W_{ext}=\Delta E_{sistema}.$$
+**Quantidade de movimento:** Grandeza vetorial $\vec{p}$ definida por$$\vec{p}=m \vec{v}.$$
+	Também pode ser chamada de *momento linear*.
+	Usando esta escrita, vemos a forma original da *segunda lei de Newton*:$$\vec{F}_{res}=\frac{d}{dt}(m \vec{v})=\frac{d \vec{p}}{dt}.$$
+
+O momento **linear** como o nome indica, pode ser tomado como algo **algebricamente linear**, isto é, se $\vec{P}$ for o momento linear de um sistema de $N$ partículas, então com cada partícula tendo momento $\vec{p}_{i},\ i=1,2,\dots,N$, $\vec{P}$ pode se escrito como $$\sum ^{N}_{1} \vec{p}_{i}=\sum^{N}_{1}m_{i} \vec{v}_{i}.$$
+
+Como as forças entre partículas do sistema se anulam duas a duas,$$\sum_{i}\vec{F}_{i}=\sum_{i}\vec{F}_{int,i}+\sum_{i}\vec{F}_{ext,i}=\sum_{i} \vec{F}_{ext,i}=\vec{F}_{ext,res}\quad$$
+obtendo então a segunda lei de Newton para um sistema de partículas:$$\vec{F}_{ext,res}=\frac{d \vec{P}}{dt}\iff \begin{cases}
+\sum F_{ext,x}=\frac{dP_{x}}{dt} \\
+\sum F_{ext,y}=\frac{dP_{y}}{dt} \\
+\sum F_{ext,z}=\frac{dP_{z}}{dt}
+\end{cases}$$
+**Lei da conservação do momento linear:** $$\vec{F}_{ext,res}=0\implies \frac{d \vec{P}}{dt}=0\implies \vec{P}=\sum_{i}m_{i}\vec{v}_{i}=M\vec{v}_{cm}$$onde $M$ é a massa do sistema e $\vec{v}_{cm}$ é a velocidade do centro de massa.
+	Mais sobre nestas [[Algumas coisas sobre a Lei da conservação do momento linear|notas]].
+
+Suponhamos que dois corpos entram em contacto durante um intervalo de tempo $\Delta t$. Então, eles exercem forças iguais e opostas um sobre o outro. Ao produto entre a força exercida durante o intervalo de tempo e $\Delta t$, chama-se **Impulso** ($I=F\Delta t$).
+
+Geralmente, como as forças não são constantes, usamos para o cálculo do impulso o valor médio:$$I=\bar{F}\Delta t$$
+Isto dá uma "aproximação" retangular (muito mal feita) da área do gráfico da força em aplicação:![[Pasted image 20250624181659.png]]
+Logo, vemos que, se quisermos ter o impulso de uma força não constante, devemos usar um integral para achar a área abaixo do gráfico. Isto é, $$\vec{I}=\int^{t_{1}}_{t_{0}}\vec{F}dt$$
+O impulso de uma força pode ser usado como uma "medida" do efeito da força. Exemplo:
+	É claro que uma explosão de uma bomba faz um efeito mais intenso em milissegundos do que um nadador a empurrar a parede numa partida de costas durante um ou dois segundos.
+
+Usando a segunda lei de Newton, obtemos o **teorema do impulso para uma partícula:** $$\vec{F}_{res}=\frac{d\vec{p}}{dt}\implies\vec{I}_{res}=\int_{t_{i}}^{t_{f}}\vec{F}_{res}dt=\int_{t_{i}}^{t_{f}}d\vec{p}=\Delta \vec{p}.$$
+
+De acordo com este teorema, o impulso resultante das forças extremas que atuam sobre o sistema de partículas é igual à variação do momento linear total do sistema:$$\vec{I}_{ext,res}=\int_{t_{i}}^{t_{f}}F_{ext,res}dt=\Delta \vec{P}_{sis}$$
+
+**Força média:** É calculada num certo intervalo de tempo$$\vec{F}_{med}=\frac{1}{\Delta t}\int^{t_{f}}_{t_{i}}\vec{F}dt=\frac{\vec{I}}{\Delta t}$$
+
+**Força resultante média:** É calculada da seguinte forma$$\vec{I}_{res}=\vec{F}_{res,med}\Delta t=\Delta \vec{p}$$
+**Centro de massa:** Ponto geométrico onde se supõe estar concentrada toda a massa, além disso, onde se considera aplicada a resultante das forças gravíticas que atuam nesse sistema. A sua definição é então$$\vec{r}_{cm}=\frac{m_{1}\vec{r}_{1}+m_{2}\vec{r}_{2}+\dots+m_{N}\vec{r}_{N}}{M}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{r}_{i}$$onde $M$ é a soma das massas de cada partícula do sistema.
+As coordenadas deste ponto geométrico são$$x_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{x}_{i},\quad y_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{y}_{i},\quad z_{cm}=\frac{1}{M}\sum^N_{i=1}m_{i}\vec{z}_{i}$$
+>    **NOTA:**  Este ponto não precisa de ser a posição de nenhuma das partículas do sistema!
+
+
+Para dar contexto ao estudo seguinte, devemos notar que o movimento de qualquer corpo ou sistema de partículas pode ser descrito pelo *movimento do centro de massa*.
+
+>Entre duas partículas distanciadas por $d$ com massas $m_{1}<m_2$, o centro de massa pode ser encontrado pela expressão $$\begin{align}\frac{d\cdot m_{2}}{m_{1}+m_{2}}\end{align}$$
+
+Dado um corpo contínuo substitui-se o somatório por um integral, afinal, deixamos de falar de objetos discretos e passamos a descrever volumes contínuos. Assim, ficamos com$$\vec{r}_{cm}=\frac{1}{m}\int_{\text{massa do corpo}}\vec{r}\ dm=\frac{1}{M}\int_{\text{volume do corpo}}\rho \vec{r}\ dV$$onde $\rho$ é a densidade do corpo.
+
+Dados *corpos simétricos e homogéneos* o centro de massa estará sobre os *eixos de simetria*.
+
+Tal como já era comum, para obter a **velocidade do centro de massa**, basta derivar em função ao tempo as equações que nos definem as posições em relação ao mesmo. Obtemos que$$\vec{v}_{cm}=\frac{1}{M}\sum^N_{1}m_{i} \frac{d\vec{r}_{i}}{dt}=\frac{1}{M}\sum^N_{1}m_{i}\vec{v}_{i}$$
+Ou seja,$$M\vec{v}_{cm}=\sum_{1}^Nm_{i}\vec{v}_{i}=\sum^N_{1}\vec{p}_{i}=\vec{p}_{cm},$$
+ficando com a quantidade de movimento de um sistema de partículas.
+
+A aceleração define-se da mesma maneira, ficando com $$\vec{a}_{cm}=\frac{d\vec{v}_{cm}}{dt}=\frac{1}{M}\sum^N_{1}m_{i} \frac{d\vec{v}_{i}}{dt}=\sum^N_{1}m_{i} \vec{a}_{i}=\frac{1}{M} \sum_{1}^N\vec{F}_{i}$$
+Logo $M\vec{a}_{cm}$ será igual à soma de todas as forças que atuam sobre todas as partículas do sistema.
+
+Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
+**Energia cinética de um sistema de**  $N$ **partículas:** $$K=\sum_{1}^NK_{i}=\sum_{1}^N \frac{1}{2} m_{i}v_{i}^2$$
+> De forma geral, podemos representar a energia cinética de um sistema de partículas por$$\begin{align}K&=\sum_{i}K_{i}=\sum_{i} \frac{1}{2}m_{i}(\vec{v}_{i}\cdot \vec{v}_{i})= \\
+&=\sum_{i} \frac{1}{2}m_{i}(\vec{v}_{cm}+\vec{u}_{i})\cdot (\vec{v}_{cm}+\vec{u}_{i})=\\&=\sum_{i} \frac{1}{2}m_{i}v_{cm}^2+\sum_{i} \frac{1}{2}m_{i}u_{i}^2+v_{cm}\cdot\sum_{i}m_{i}u_{i}= \\
+&=\sum_{i} \frac{1}{2}m_{i}v_{cm}^2+\sum_{i} \frac{1}{2}m_{i}u_{i}^2=\\&=\frac{1}{2}Mv_{cm}^2+K_{rel}\end{align}$$onde $K_{rel}$ é a energia cinética relativa ao centro de massa e $u_{i}$ a velocidade em relação ao centro de massa de cada partícula.
+
+**Energia potencial gravítica de um sistema de**  $N$ **partículas:** $$\mathcal{U}=\sum_{i}m_{i}gh_{i}=g\sum_{i}m_{i}h_{i}=gMh_{cm}$$
+**Colisões:** Dois corpos aproximam-se e interagem fortemente durante um curto intervalo de tempo.
+	Estas colisões podem ser:
+		- *Perfeitamente elástica*: a energia cinética total dos corpos é a mesma, antes e depois da colisão.
+		- *Inelástica*: a energia cinética dos corpos altera-se, antes e depois da colisão.
+		- *Perfeitamente inelástica*: Ambos os corpos param imediatamente depois da colisão, isto é, ficam "juntos".
+
+Podemos ver que na *colisão de dois corpos a uma dimensão* (choque frontal), como a resultante das forças externas é nula, há conservação do momento linear: $$m_{1}v_{1f}+m_{2}v_{2f}=m_{1}v_{1i}+m_{2}v_{2i}$$
+Além disto, vamos precisar de uma [[Velocidades pós colisões|relação diferente]] para conseguirmos achar as velocidades dos corpos após a colisão, obviamente, vai ter de depender do tipo de colisão.
+
+Temos ainda **colisões oblíquas**, onde os corpos podem não bater de frente mas sim com uma certa angulação.![[Pasted image 20250625220033.png]]
+A distância $b$ entre os centros chama-se por parâmetro de impacto.
+
+Um caso interessante da colisão elástica oblíqua é quando os corpos têm a mesma massa e um deles se encontra inicialmente em repouso. A 
+permite obter:
+
+$$
+m \vec{v}_{1 i}=m \vec{v}_{1 f}+m \vec{v}_{2 f} \Leftrightarrow \vec{v}_{1 i}=\vec{v}_{1 f}+\vec{v}_{2 f}
+$$
+
+A conservação da energia cinética permite obter:
+
+$$
+\frac{1}{2} m v_{1 i}^2=\frac{1}{2} m v_{1 f}^2+\frac{1}{2} m v_{2 f}^2 \quad \Leftrightarrow \quad v_{1 i}^2=v_{1 f}^2+v_{2 f}^2
+$$
+
+As três velocidades formam portanto um triângulo retângulo, ou seja, neste caso particular as velocidades finais são perpendiculares.
+
+**Momento de uma força:** Sendo $\vec{r}$ a posição da força, $\vec{F}$ a força e $\theta$ o ângulo entre eles, temos o momento $$\vec{M}=\vec{r}\times \vec{F},$$onde $$|\vec{M}|=|\vec{r}||\vec{F}|\sin \theta.$$
+**Corpo Rígido:** A posição das partículas nesse sistema em relação ao centro de massa é fixa.
+	Se a velocidade do corpo for nula, o corpo diz-se em *equilíbrio estático*.
+
+Em geral, temos outra definição.
+
+**Equilíbrio estático:** É um estado alcançado por um objeto quando satisfaz as seguintes condições:
+	~ Força resultante nula, $\vec{F}_{res}=0$.
+	~ Movimento de rotação nulo, isto é, a soma dos momentos é nula, $\vec{M}_{res}=0$.
+
+Podemos dar um método, meio que generalizado, quando tratamos de um problema de estática do corpo generalizado.
+
+### O método
+
+1) Desenhamos o diagrama de corpo livre para o objeto em estudo.
+2) Escolher, como sempre um sistema de eixos apropriado.
+3) Escrever as forças analiticamente.
+4) Calcular todos os momentos de forças em relação a um ponto qualquer do espaço, o ponto deve ser escolhido de forma vantajosa.
+5) Resolver um *sistema de equilíbrio estático* $$\begin{cases}
+\vec{F}_{res}=0 \\ \\
+
+\vec{M}_{res}=0
+\end{cases}\quad.$$
+
+
+Ao aplicar tensão ou compressão num corpo temos uma certa deformação.
+	Esta deformação pode entrar em dois regimes:
+		**Regime plástico:** onde a força já ultrapassa um certo limite na tensão ou compressão e resulta em deformações permanentes.
+		**Regime elástico:** antes desse limite de força, causando *deformações elásticas*, isto é, que voltam ao normal.
+
+A deformação elástica pode ser descrita como $$\frac{F}{A}=Y \frac{\Delta L}{L}$$onde $F$ é intensidade da força aplicada, $A$ é a área de secção transversal e $Y$ o *módulo de Young*.
+
+O módulo de Young é uma medida de resistência do material ao tipo de força exercida nele. ($SI=N/m^{2}\ ou\ Pa(/Pascal)$ )
+	Se $Y$ for grande, o material será difícil de quebrar.
+	Se $Y$ for pequeno, o material será fácil de quebrar.
+
+À razão $\frac{F}{A}$ também medida em $Pa$, sendo designada por *tensão*.
+
+À razão $\frac{\Delta L}{L}$ também medida em $Pa$, sendo designada por *deformação*.
+
+A elasticidade dos sólidos explica-se pela [[constituição atómica dos materiais]].
+
+![[Pasted image 20250627121649.png]]
+![[Pasted image 20250627121932.png]]
+
+**Força restauradora:** $F_{res}=-F=-\frac{YA}{L}\Delta L$, onde $F$ era a força de tensão ou compressão.
+	**1)** Desta maneira, os sólidos obedecem também à lei de Hooke com uma constante elástica efetiva de $\frac{YA}{L}$.
+	**2)** Se o sólido é homogéneo e isotrópico, as propriedades são iguais em todas as direções, **MAS** se tal não acontecer, temos que considerar *módulos de Young diferentes* para as *diferentes direções*.
+	**3)** Se a força aplicada não for normal à superfície de contacto, mas paralela, o tipo de tensão aplicada é designado por *tensão de cisalhamento*. Quando o sólido tiver resposta linear, a distorção consiste num *ângulo de deformação constante*.
+
