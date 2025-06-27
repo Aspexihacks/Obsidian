@@ -232,3 +232,6 @@ Em geral, temos outra definição.
 	~ Força resultante nula, $\vec{F}_{res}=0$.
 	~ Movimento de rotação nulo, isto é, a soma dos momentos é nula, $\vec{M}_{res}=0$.
 
+Podemos dar um método, meio que generalizado, quando tratamos de um problema de estática do corpo generalizado.
+
+### O método
