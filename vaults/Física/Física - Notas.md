@@ -247,4 +247,9 @@ Podemos dar um método, meio que generalizado, quando tratamos de um problema de
 \end{cases}\quad.$$
 
 
-Ao aplicar tensão ou  num corpo
+Ao aplicar tensão ou compressão num corpo temos uma certa deformação.
+	Esta deformação pode entrar em dois regimes:
+		**Regime plástico:** onde a força já ultrapassa um certo limite na tensão ou compressão e resulta em deformações permanentes.
+		**Regime elástico:** antes desse limite de força, causando *deformações elásticas*, isto é, que voltam ao normal.
+
+A deformação elástica pode ser descrita como $$\frac{F}{A}=Y \frac{\Delta L}{L}$$onde $F$ é intensidade da força aplicada, $A$ é a áre
