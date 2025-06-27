@@ -267,3 +267,6 @@ A elasticidade dos sólidos explica-se pela [[constituição atómica dos materi
 ![[Pasted image 20250627121649.png]]
 ![[Pasted image 20250627121932.png]]
 
+**Força restauradora:** $F_{res}=-F=-\frac{YA}{L}\Delta L$, onde $F$ era a força de tensão ou compressão.
+	Desta maneira, os sólidos obedecem também à lei de Hooke com uma constante elástica efetiva de $\frac{YA}{L}$.
+
