@@ -240,5 +240,8 @@ Podemos dar um método, meio que generalizado, quando tratamos de um problema de
 2) Escolher, como sempre um sistema de eixos apropriado.
 3) Escrever as forças analiticamente.
 4) Calcular todos os momentos de forças em relação a um ponto qualquer do espaço, o ponto deve ser escolhido de forma vantajosa.
-5) 
+5) Resolver um *sistema de equilíbrio estático* $$\begin{cases}
+\vec{F}_{res}=0 \\ \\
 
+\vec{M}_{res}=0
+\end{cases}\quad.$$
