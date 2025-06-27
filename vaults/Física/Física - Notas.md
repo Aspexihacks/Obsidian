@@ -245,3 +245,6 @@ Podemos dar um método, meio que generalizado, quando tratamos de um problema de
 
 \vec{M}_{res}=0
 \end{cases}\quad.$$
+
+
+Ao aplicar tensão ou  num corpo
