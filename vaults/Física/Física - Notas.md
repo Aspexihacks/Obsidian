@@ -222,3 +222,4 @@ $$
 
 As três velocidades formam portanto um triângulo retângulo, ou seja, neste caso particular as velocidades finais são perpendiculares.
 
+**Momento de uma força:** Sendo $\vec{r}$ a posição da força e $\vec{F}$ a força, temos o momento $$\vec{M}=\vec{r}\times \vec{F}$$
