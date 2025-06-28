@@ -274,3 +274,11 @@ A elasticidade dos sólidos explica-se pela [[constituição atómica dos materi
 		Quando a tesão e deformação são proporcionais, a constante de proporcionalidade é chamada de *módulo de cisalhamento*.
 ![[Pasted image 20250628150648.png]]
 
+---
+
+![[Pasted image 20250628151127.png]]
+
+**Tensão de corte:** $\frac{F}{A}$
+**Deformação de corte:** $\frac{\Delta x}{l}$
+
+***Lei de hooke*** 
