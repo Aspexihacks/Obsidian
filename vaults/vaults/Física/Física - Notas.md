@@ -271,4 +271,6 @@ A elasticidade dos sólidos explica-se pela [[constituição atómica dos materi
 	**1)** Desta maneira, os sólidos obedecem também à lei de Hooke com uma constante elástica efetiva de $\frac{YA}{L}$.
 	**2)** Se o sólido é homogéneo e isotrópico, as propriedades são iguais em todas as direções, **MAS** se tal não acontecer, temos que considerar *módulos de Young diferentes* para as *diferentes direções*.
 	**3)** Se a força aplicada não for normal à superfície de contacto, mas paralela, o tipo de tensão aplicada é designado por *tensão de cisalhamento*. Quando o sólido tiver resposta linear, a distorção consiste num *ângulo de deformação constante*.
+		Quando a tesão e deformação são proporcionais, a constante de proporcionalidade é chamada de *módulo de cisalhamento*.
+![[Pasted image 20250628150648.png]]
 
