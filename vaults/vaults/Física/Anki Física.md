@@ -366,3 +366,4 @@ A: Uma colisão onde os corpos ficam juntos e param após a colisão.
 Q: O que é conservado em uma colisão frontal a uma dimensão? 
 A: O momento linear é conservado, dado por $m_{1} v_{1f} + m_{2} v_{2f} = m_{1} v_{1i} + m_{2} v_{2i}$.
 <!--ID: 1750885046240-->
+

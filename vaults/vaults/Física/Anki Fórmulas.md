@@ -258,3 +258,37 @@ A: $\mathcal{U} = g M h_{cm}$
 Q: Conservação do momento linear em colisão frontal 
 A: $m_{1} v_{1f} + m_{2} v_{2f} = m_{1} v_{1i} + m_{2} v_{2i}$
 <!--ID: 1750897594474-->
+
+Q: Momento de uma força 
+A: $\vec{M} = \vec{r} \times \vec{F}$, $|\vec{M}| = |\vec{r}| |\vec{F}| \sin \theta$
+<!--ID: 1751122912669-->
+
+
+Q: Condições de equilíbrio estático 
+A: $\vec{F}_{res} = 0$, $\vec{M}_{res} = 0$
+<!--ID: 1751122912675-->
+
+
+Q: Deformação elástica 
+A: $\frac{F}{A} = Y \frac{\Delta L}{L}$
+<!--ID: 1751122912679-->
+
+
+Q: Força restauradora 
+A: $F_{res} = -\frac{Y A}{L} \Delta L$
+<!--ID: 1751122912683-->
+
+
+Q: Tensão de corte 
+A: $\frac{F}{A}$
+<!--ID: 1751122912688-->
+
+
+Q: Deformação de corte 
+A: $\frac{\Delta x}{l}$
+<!--ID: 1751122912692-->
+
+
+Q: Lei de Hooke para tensão de cisalhamento 
+A: $\frac{F}{A} = M_{s} \frac{\Delta x}{l} \approx M_{s} \theta$
+<!--ID: 1751122912696-->
