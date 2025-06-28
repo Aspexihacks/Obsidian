@@ -281,4 +281,5 @@ A elasticidade dos sólidos explica-se pela [[constituição atómica dos materi
 **Tensão de corte:** $\frac{F}{A}$
 **Deformação de corte:** $\frac{\Delta x}{l}$
 
-***Lei de hooke*** 
+***Lei de Hooke:*** $\frac{F}{A}=M_{s} \frac{\Delta x}{l}=M_{s}tg\theta \approx M_{s}\theta$, $M_s$(Pa) é *módulo de corte*.
+
