@@ -367,3 +367,66 @@ Q: O que é conservado em uma colisão frontal a uma dimensão?
 A: O momento linear é conservado, dado por $m_{1} v_{1f} + m_{2} v_{2f} = m_{1} v_{1i} + m_{2} v_{2i}$.
 <!--ID: 1750885046240-->
 
+Q: O que é um corpo rígido? 
+A: Um sistema onde as posições das partículas em relação ao centro de massa são fixas.
+<!--ID: 1751123108000-->
+
+
+Q: O que é equilíbrio estático? 
+A: Estado de um objeto com força resultante nula e sem rotação, com $\vec{F}_{res} = 0$ e $\vec{M}_{res} = 0$.
+<!--ID: 1751123108005-->
+
+
+Q: O que é o regime plástico? 
+A: Regime onde a força causa deformações permanentes ao ultrapassar o limite elástico.
+<!--ID: 1751123108009-->
+
+
+Q: O que é o regime elástico? 
+A: Regime onde a força causa deformações reversíveis, antes do limite plástico.
+<!--ID: 1751123108013-->
+
+
+Q: O que é tensão? 
+A: A razão entre a força aplicada e a área de secção transversal, dada por $\frac{F}{A}$.
+<!--ID: 1751123108017-->
+
+
+Q: O que é deformação? 
+A: A razão entre a variação de comprimento e o comprimento original, dada por $\frac{\Delta L}{L}$.
+<!--ID: 1751123108021-->
+
+
+Q: O que é o módulo de Young? 
+A: Medida da resistência de um material à deformação elástica, dada por $Y = \frac{F/A}{\Delta L/L}$.
+<!--ID: 1751123108025-->
+
+
+Q: O que é o módulo de cisalhamento? 
+A: Constante de proporcionalidade entre tensão e deformação de corte, dada por $M_s = \frac{F/A}{\Delta x/l}$.
+<!--ID: 1751123108029-->
+
+
+Q: O que é transferência de energia? 
+A: Ocorre quando um sistema realiza trabalho sobre outro, alterando sua energia.
+<!--ID: 1751123108033-->
+
+
+Q: O que é energia potencial? 
+A: Energia associada à posição ou configuração de um sistema.
+<!--ID: 1751123108037-->
+
+
+Q: O que são forças dissipativas? 
+A: Forças não conservativas que dissipam energia mecânica, como atrito e resistência.
+<!--ID: 1751123108041-->
+
+
+Q: O que são forças não conservativas? 
+A: Forças cujo trabalho depende do caminho, como atrito ou forças de explosão.
+<!--ID: 1751123108045-->
+
+
+Q: Qual é o método para resolver problemas de equilíbrio estático? 
+A: 1) Desenhar diagrama de corpo livre; 2) Escolher eixos; 3) Escrever forças; 4) Calcular momentos; 5) Resolver $\vec{F}_{res} = 0$ e $\vec{M}_{res} = 0$.
+<!--ID: 1751123108050-->
