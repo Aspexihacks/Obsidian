@@ -202,7 +202,7 @@ Assim, pela terceira lei de Newton, $$\vec{F}_{ext,res}=M\vec{a}_{cm}.$$
 		- *Perfeitamente inelástica*: Ambos os corpos param imediatamente depois da colisão, isto é, ficam "juntos".
 
 Podemos ver que na *colisão de dois corpos a uma dimensão* (choque frontal), como a resultante das forças externas é nula, há conservação do momento linear: $$m_{1}v_{1f}+m_{2}v_{2f}=m_{1}v_{1i}+m_{2}v_{2i}$$
-Além disto, vamos precisar de uma [[Velocidades pós colisões|relação diferente]] para conseguirmos achar as velocidades dos corpos após a colisão, obviamente, vai ter de depender do tipo de colisão.
+Além disto, vamos precisar de uma [[Velocidades pós colisões 1|relação diferente]] para conseguirmos achar as velocidades dos corpos após a colisão, obviamente, vai ter de depender do tipo de colisão.
 
 Temos ainda **colisões oblíquas**, onde os corpos podem não bater de frente mas sim com uma certa angulação.![[Pasted image 20250625220033.png]]
 A distância $b$ entre os centros chama-se por parâmetro de impacto.
