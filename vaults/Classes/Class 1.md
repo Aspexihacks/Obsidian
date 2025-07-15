@@ -14,4 +14,15 @@ First we have to define what all of them are:
 Then $X$ is called an ***Inner Product Space*** or an ***Euclidean Space***.
 
 **Definition 2.** Let $X$ be a space provided with an application$$||\cdot||: X \to \mathbb{R}^+_{0}$$for which 
-	1. $||x||\geq 0$	
+	1. $||x||\geq 0, \forall x \in X$;
+	2. $||x||=0 \implies x=0$;
+	3. $||\alpha x||= |\alpha| \cdot ||x||, \forall x \in X, \alpha \in \mathbb{R}$;
+	4. $||x+y||\leq ||x||+||y||,\forall x,y \in X$.
+Then $X$ is called a ***Normed Space***.
+
+**Definition 3.** Let $X$ be a space provided with an application$$d(x,y): X\times X \to \mathbb{R}^+_{0}$$for which 
+	1. $d(x,y)\geq 0, \forall x,y \in X$;
+	2. $||x||=0 \implies x=0$;
+	3. $||\alpha x||= |\alpha| \cdot ||x||, \forall x \in X, \alpha \in \mathbb{R}$;
+	4. $||x+y||\leq ||x||+||y||,\forall x,y \in X$.
+Then $X$ is called a ***Normed Space***.
