@@ -13,4 +13,5 @@ First we have to define what all of them are:
 		4. $\langle x+y | z \rangle= \langle x | z \rangle+\langle y | z \rangle, \forall x,y,z \in X$.
 Then $X$ is called an ***Inner Product Space*** or an ***Euclidean Space***.
 
-**Definition 2.** Let $X$ be a space provided with an application$$||\cdot||$$
+**Definition 2.** Let $X$ be a space provided with an application$$||\cdot||: X \to \mathbb{R}^+_{0}$$for which 
+	1. $||x||\geq 0$	
