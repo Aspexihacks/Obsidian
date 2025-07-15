@@ -5,10 +5,12 @@
 We will build the diagram above from scratch, that is, from Inner Product Spaces to Topological Spaces. 
 
 First we have to define what all of them are:
-	**Definition 1.** Let $X$  be a space provided with an application $$\langle \cdot | \cdot \rangle :X\times X\to \mathbb{R}$$
+**Definition 1.** Let $X$  be a space provided with an application $$\langle \cdot | \cdot \rangle :X\times X\to \mathbb{R}$$
 	for which
-		1. $\langle x | y \rangle = \langle y | x \rangle, \forall x,y\in X$
-		2. $\langle x | x \rangle \leq 0, \forall x \in X, \langle x | x \rangle =0 \implies x=0$
-		3. $\langle \alpha x | y \rangle= \alpha \langle x | y \rangle \forall x,y \in X, \alpha \in \mathbb{R}$
-		4.
-	
+		1. $\langle x | y \rangle = \langle y | x \rangle, \forall x,y\in X$;
+		2. $\langle x | x \rangle \leq 0, \forall x \in X, \langle x | x \rangle =0 \implies x=0$;
+		3. $\langle \alpha x | y \rangle= \alpha \langle x | y \rangle, \forall x,y \in X, \alpha \in \mathbb{R}$;
+		4. $\langle x+y | z \rangle= \langle x | z \rangle+\langle y | z \rangle, \forall x,y,z \in X$.
+Then $X$ is called an ***Inner Product Space*** or an ***Euclidean Space***.
+
+**Definition 2.** Let $X$ be a space provided with an application$$||\cdot||$$
