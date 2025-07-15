@@ -5,4 +5,10 @@
 We will build the diagram above from scratch, that is, from Inner Product Spaces to Topological Spaces. 
 
 First we have to define what all of them are:
-	**Definition 1.** Let $X$  be a space provided with an application $$\langle | \rangle$$
+	**Definition 1.** Let $X$  be a space provided with an application $$\langle \cdot | \cdot \rangle :X\times X\to \mathbb{R}$$
+	for which
+		1. $\langle x | y \rangle = \langle y | x \rangle, \forall x,y\in X$
+		2. $\langle x | x \rangle \leq 0, \forall x \in X, \langle x | x \rangle =0 \implies x=0$
+		3. $\langle \alpha x | y \rangle= \alpha \langle x | y \rangle \forall x,y \in X, \alpha \in \mathbb{R}$
+		4.
+	
