@@ -11,14 +11,12 @@
             "id": "5ccb5862e1bb0e93",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Habit Tracker/Studying time.md",
-                "mode": "source",
-                "source": false
+                "file": "vaults/vaults/Artigo - Kovacec/References/Classical Banach Spaces I Sequence Spaces - Joram Lindenstrauss, Lior Tzafriri .pdf"
               },
-              "icon": "lucide-file",
-              "title": "Studying time"
+              "icon": "lucide-file-text",
+              "title": "Classical Banach Spaces I Sequence Spaces - Joram Lindenstrauss, Lior Tzafriri"
             }
           }
         ]
@@ -98,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Habit Tracker/Studying time.md",
+            "file": "vaults/vaults/Artigo - Kovacec/References/Classical Banach Spaces I Sequence Spaces - Joram Lindenstrauss, Lior Tzafriri .pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -153,8 +151,14 @@
   },
   "active": "5ccb5862e1bb0e93",
   "lastOpenFiles": [
-    "Habit Tracker/Routine.md",
     "Habit Tracker/Studying time.md",
+    "images/Pasted image 20250627121932.png",
+    "images/Pasted image 20250624181659.png",
+    "images/ken-kaneki-edgy-anime-pfp-b87b6l1k7p3sd0f6.jpg",
+    "images/ffe9f7a98bf2a6ed3c9ea1383767758a.jpg",
+    "images/Pasted image 20250625220033.png",
+    "images/Pasted image 20250627121649.png",
+    "Habit Tracker/Routine.md",
     "vaults",
     "vaults/vaults/Tracker/2025-06-26.md",
     "vaults/vaults/Tracker/2025-06-25.md",
@@ -181,13 +185,7 @@
     "vaults/vaults/Artigo - Kovacec/Notes/the Haar System is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1].md",
     "images/Pasted image 20250614205300.png",
     "images/Pasted image 20250614205612.png",
-    "images/Pasted image 20250614205604.png",
-    "images/Pasted image 20250614205633.png",
-    "images/Pasted image 20250614205418.png",
     "vaults/Artigo - Kovacec/the Haar System is a basis of the Banach space of all Lebesgue-measurable real-valued functions on [0,1].md",
-    "vaults/vaults/Images/Pasted image 20250616161325.png",
-    "vaults/vaults/Images/Pasted image 20250616161441.png",
-    "vaults/vaults/Images/Pasted image 20250616161535.png",
     "vaults/vaults/Física/aplicações para as leis de Newton.md",
     "vaults/vaults/Física/Movimento de Projéteis.md",
     "vaults/vaults/Física/Lei da Ação e Reação.md",
