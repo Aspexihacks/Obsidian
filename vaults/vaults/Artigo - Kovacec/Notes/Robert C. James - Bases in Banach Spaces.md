@@ -142,4 +142,52 @@ One can now figure out that $C[0,1]$ also as a basis of polynomials, because of 
 
 # Bases and Duality
 
-```latex \usepackage{tikz} \begin{document} \begin{tikzpicture}[domain=0:4] \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9); \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$}; \draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$}; \draw[color=red] plot (\x,\x) node[right] {$f(x) =x$}; \draw[color=blue] plot (\x,{sin(\x r)}) node[right] {$f(x) = \sin x$}; \draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$}; \end{tikzpicture} \end{document} ```
+```latex 
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{z}
+\author{Duarte Rosa}
+\date{July 2025}
+
+\begin{document}
+
+Equivalent Basis
+
+
+\textbf{Definition:} Two bases of $X$ $\{u_{n}\}$ and $\{v_{n}\}$ for which $\sum^\infty_{1}a_{n}u_{n}$ converges if and only if $\sum^\infty_{1}a_{n}v_{n}$ converges are said to be *equivalent bases*.
+
+\textbf{Theorem:} Let $X$ be an infinite dimensional Banach space with a Schauder basis. Then there are uncountably many mutually non-equivalent normalized bases in $X$.
+
+Even with the given theorem above, bases do have some stability. If each basis vector is perturbed by a sufficiently small amount, it remains a basis and is equivalent to the original basis.
+
+\textbf{Theorem:} If $\{u_{n}\}$ is a normalized basis of $X$ and $\{u^*_n\}$ is the corresponding sequence of coefficient functionals, then $\{v_n\}$ is a basis for $X$ and is equivalent to $\{u_{n}\}$ if $$\sum^\infty_{i=1}||u_{i}-v_{i}||\ ||u_{i}^*||<1.$$
+$Proof:$ Let $K$ be the basis constant of $\{u_n\}$, a normalized basis of $X$, and $\{u^{*}_{n}\}$ the coefficient functionals. Putting $$\theta=\sum^{\infty}_{1}\lvert \lvert u_{i}-v_{i} \rvert  \rvert \ \lvert \lvert u_{i}^* \rvert  \rvert$$and setting the linear mapping \begin{align}T:X&\to span\{v_{i}\}\\\sum^{\infty}_{1}x_{i}u_{i}&\mapsto \sum^{\infty}_{1}x_{i}v_{i} \end{align}so we can now use the inequality we proved earlier ([[Robert C. James - Bases in Banach Spaces#An useful inequality|An useful inequality]]) to get $$\lvert \lvert u_{i}^* \rvert  \rvert\leq {2}K ,\forall_{i\in \mathbb{N}}.$$
+This gives us that$$\lvert x_{n} \rvert =\lvert (u_{n}^{*},x) \rvert \leq \lvert \lvert u_{n}^* \rvert  \rvert\  \lvert \lvert x \rvert  \rvert.\tag{1}$$
+We can see that $\big|\big|\sum^{\infty}_{1}x_{i}(u_{i}-v_{i})\big|\big|=\big|\big|x-Tx\big|\big|$, and so, by $(1)$, $\big|\big|x-Tx\big|\big|=\big|\big|\sum^{\infty}_{1}x_{i}(u_{i}-v_{i})\big|\big|\leq ||x|| \sum^{\infty}_{1}||u_{i}-v_{i}||\ ||u_{i}^{*}||=\theta \cdot||x|| <||x||,$ and just like that we get that $\sum^{\infty}_{1}x_{i}v_{i}$ converges.
+We also have that $$\begin{align}
+\lvert \lvert x \rvert  \rvert -\lvert \lvert x-Tx \rvert  \rvert &\leq \lvert \lvert Tx \rvert  \rvert \leq \lvert \lvert x \rvert  \rvert + \lvert \lvert x-Tx \rvert  \rvert\implies\\&\implies (1-\theta)\lvert \lvert x \rvert  \rvert \leq \lvert \lvert Tx \rvert  \rvert (1+\theta)\lvert \lvert x \rvert  \rvert .
+\end{align}\tag{2}$$
+Hence, $T$ is an *isomorphism*.
+
+$Tu_{i}=v_{i}\implies v_{i}\not=0$
+
+and also $\lvert \lvert I-T \rvert \rvert \leq \theta <1 \implies lin\{v_{i}\}$ is dense in $X$.
+
+Defining$$\begin{cases}
+\sigma_{n}=\sum_{1}^{n}a_{i}u_{i} \\
+\sigma_{n+1}=\sum^{n+p}_{1}a_{i}u_{i}
+\end{cases}$$we get, by $(2)$, that $$||T\sigma_{n}||\leq (1+\theta) ||\sigma_{n}||\leq (1+\theta)K||\sigma_{n+1}||\leq \frac{{1+\theta}}{1-\theta}K||T\sigma_{n+1}||.$$
+Hence $K'$=$\frac{1+\theta}{1-\theta}K$ is the basis constant of $\{v_n\}$ as a basis for $X$.
+
+Since every $x \in X$ has a unique representation in the base $\{u_{n}\}$ and so ,by means of the isomorphism $T$, $Tx$ also has a unique representation in the base $\{v_{n}\}$ and since $T$ has range $X$, we get that every $x \in X$ also gets an unique representation in the form $\sum^{\infty}_{n}x_{i}v_{i}.\square$ 
+
+ An example
+
+
+One can now figure out that $C[0,1]$ also as a basis of polynomials, because of this last theorem, but as said before it is not any sequence of polynomials but one which has a much rapid growth in the degrees of the polynomials.
+
+
+\end{document}
+```
+
