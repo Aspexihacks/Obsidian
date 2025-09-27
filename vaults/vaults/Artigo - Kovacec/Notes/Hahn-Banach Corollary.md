@@ -5,4 +5,4 @@ Proving the existence of the continuous linear functional  talked in
 
 # Step One
 
-Let $M$ be a subspace of $X$ 
+Let $M$ be a subspace of $X$ such that for some $x\in X$ 
