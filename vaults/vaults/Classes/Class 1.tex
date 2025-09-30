@@ -1,93 +1,45 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-\documentclass[
-]{article}
-\usepackage{xcolor}
-\usepackage{amsmath,amssymb}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\usepackage{iftex}
-\ifPDFTeX
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math} % this also loads fontspec
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-\usepackage{lmodern}
-\ifPDFTeX\else
-  % xetex/luatex font selection
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\usepackage{bookmark}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same}
-\hypersetup{
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-
-\author{}
-\date{}
-
+\documentclass{article}
+\usepackage{svg}
+\usepackage{geometry}
+\geometry{margin=1in}
 \begin{document}
+# Background and Definitions
 
-\section{Background and Definitions}\label{background-and-definitions}
+\begin{figure}[h!]
+\centering
+\includesvg[width=0.8\textwidth]{Class 1_images/diagram_1.svg}
+\caption{Diagram 1}
+\end{figure}
 
-@font-face \{ font-family: Excalifont; src:
-url(data:font/woff2;base64,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);
-\}Inner ProductSpacesNormed SpacesMetric SpacesTopological Spaces
 
-We will build the diagram above from scratch, that is, from Inner
-Product Spaces to Topological Spaces.
+We will build the diagram above from scratch, that is, from Inner Product Spaces to Topological Spaces. 
 
-First we have to define what all of them are: \textbf{Definition 1.} Let
-\(X\) be a space provided with an application
-\[\langle \cdot | \cdot \rangle :X\times X\to \mathbb{R}\] for which 1.
-\(\langle x | y \rangle = \langle y | x \rangle, \forall x,y\in X\); 2.
-\(\langle x | x \rangle \leq 0, \forall x \in X, \langle x | x \rangle =0 \implies x=0\);
-3.
-\(\langle \alpha x | y \rangle= \alpha \langle x | y \rangle, \forall x,y \in X, \alpha \in \mathbb{R}\);
-4.
-\(\langle x+y | z \rangle= \langle x | z \rangle+\langle y | z \rangle, \forall x,y,z \in X\).
-Then \(X\) is called an \textbf{\emph{Inner Product Space}} or an
-\textbf{\emph{Euclidean Space}}.
+First we have to define what all of them are:
+**Definition 1.** Let $X$  be a space provided with an application $$\langle \cdot | \cdot \rangle :X\times X\to \mathbb{R}$$
+	for which
+		1. $\langle x | y \rangle = \langle y | x \rangle, \forall x,y\in X$;
+		2. $\langle x | x \rangle \leq 0, \forall x \in X, \langle x | x \rangle =0 \implies x=0$;
+		3. $\langle \alpha x | y \rangle= \alpha \langle x | y \rangle, \forall x,y \in X, \alpha \in \mathbb{R}$;
+		4. $\langle x+y | z \rangle= \langle x | z \rangle+\langle y | z \rangle, \forall x,y,z \in X$.
+Then $X$ is called an ***Inner Product Space*** or an ***Euclidean Space***.
 
-\textbf{Definition 2.} Let \(X\) be a space provided with an
-application\[||\cdot||: X \to \mathbb{R}^+_{0}\]for which 1.
-\(||x||\geq 0, \forall x \in X\); 2. \(||x||=0 \implies x=0\); 3.
-\(||\alpha x||= |\alpha| \cdot ||x||, \forall x \in X, \alpha \in \mathbb{R}\);
-4. \(||x+y||\leq ||x||+||y||,\forall x,y \in X\). Then \(X\) is called a
-\textbf{\emph{Normed Space}}.
+**Definition 2.** Let $X$ be a space provided with an application$$||\cdot||: X \to \mathbb{R}^+_{0}$$for which 
+	1. $||x||\geq 0, \forall x \in X$;
+	2. $||x||=0 \implies x=0$;
+	3. $||\alpha x||= |\alpha| \cdot ||x||, \forall x \in X, \alpha \in \mathbb{R}$;
+	4. $||x+y||\leq ||x||+||y||,\forall x,y \in X$.
+Then $X$ is called a ***Normed Space***.
 
-\textbf{Definition 3.} Let \(X\) be a space provided with an
-application\[d(\cdot,\cdot): X\times X \to \mathbb{R}^+_{0}\]for which
-1. \(d(x,y)\geq 0, \forall x,y \in X\); 2. \(d(x,y)=0 \implies x=y\); 3.
-\(d(x,y)=d(y,x) \forall x,y \in X\) 4.
-\(d(x,y)\leq d(x,z)+d(z,y),\forall x,y,z \in X\). Then \(X\) is called a
-\textbf{\emph{Metric Space}}.
+**Definition 3.** Let $X$ be a space provided with an application$$d(\cdot,\cdot): X\times X \to \mathbb{R}^+_{0}$$for which 
+	1. $d(x,y)\geq 0, \forall x,y \in X$;
+	2. $d(x,y)=0 \implies x=y$;
+	3. $d(x,y)=d(y,x) \forall x,y \in X$
+	4. $d(x,y)\leq d(x,z)+d(z,y),\forall x,y,z \in X$.
+Then $X$ is called a ***Metric Space***.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+---
 
-\section{Euclidean Spaces}\label{euclidean-spaces}
+# Euclidean Spaces
+
 
 \end{document}
