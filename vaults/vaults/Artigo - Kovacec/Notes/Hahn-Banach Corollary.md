@@ -5,4 +5,4 @@ Proving the existence of the continuous linear functional  talked in
 
 # Step One
 
-Let $M$ be a subspace of $X$ such that for some nonzero $x\in X,$ $M=\text{span}(x)$  and define $f(\alpha x):=\alpha \cdot||x||$. It is obvious that $f$ is linear in $M$, since $f(y+z)=f(\alpha x+\beta x)=f([\alpha+\beta]x)=\alpha$
+Let $M$ be a subspace of $X$ such that for some nonzero $x\in X,$ $M=\text{span}(x)$  and define $f(\alpha x):=\alpha \cdot||x||$. It is obvious that $f$ is linear in $M$, since $f(y+z)=f(\alpha x+\beta x)=f([\alpha+\beta]x)=$$=(\alpha+\beta)||x||=\alpha||x||+\beta||x||$ for all $y,z\in M$. 
