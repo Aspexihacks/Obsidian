@@ -7,6 +7,7 @@
 We will build the diagram above from scratch, that is, from Inner Product Spaces to Topological Spaces. 
 
 First we have to define what all of them are:
+
 **Definition 1.** Let $X$  be a space provided with an application $$\langle \cdot | \cdot \rangle :X\times X\to \mathbb{R}$$
 	for which
 		1. $\langle x | y \rangle = \langle y | x \rangle, \forall x,y\in X$;
